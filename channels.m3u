@@ -1,26 +1,26 @@
 #EXTM3U
 #EXTINF:-1 ,tvg-name="T SPORTS"tvg-logo="https://h1.nu/1wQSu"group-title="Sports"',T-Sports
-http://198.195.239.50:8095/T-SPORTS-HD/index.m3u8
+http://103.185.24.134:3001/TSportsHD/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Star Sports Select 1 HD
-http://livetv.akr4m.com:8080/bdtv/restrem/40.m3u8
+http://103.185.24.134:3001/StarSportss1/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Star Sports Select 2 HD
-http://filex.me:8080/live/omer123/002773/52100.m3u8
+http://103.185.24.134:3001/StarSportss2/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Star Sports 1 HD
-http://livetv.akr4m.com:8080/bdtv/restrem/39.m3u8
+http://103.185.24.134:3001/StarSports1/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Star Sports 2 HD
-http://198.195.239.50:8095/STAR.SPORTS2.HD/index.m3u8
+http://103.185.24.134:3001/StarSports2/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Star Sports 2 HINDI HD
 http://mino66.xyz/live/MgGZSAyfQGzCZGo/0qFiZbT2pD/1404536.ts
 #EXTINF:-1 ,group-title="Sports",Star Sports 3
-http://198.195.239.50:8095/STAR-SPORTS.3/index.m3u8
+http://103.185.24.134:3001/StarSports3/index.m3u8
 #EXTINF:-1 ,group-title="Sports",Star Sports khel
 http://filex.me:8080/live/omer123/002773/957586.m3u8
 #EXTINF:-1,group-title="Sports"", STAR 4K
 http://filex.me:8080/live/omer123/002773/966306.m3u8
 #EXTINF:-1 ,group-title="Sports"",Sony Ten 1 HD
-http://filex.me:8080/live/omer123/002773/52083.m3u8
+http://103.185.24.134:3001/SonyTenSports1/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Sony Ten 2 HD
-http://198.195.239.50:8095/SONY.SPORTS2.HD/index.m3u8
+http://103.185.24.134:3001/SonyTenSports2/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Sony Ten 3 
 http://198.195.239.50:8095/SONY.SPORTS.3/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Sony Ten 3 HD
@@ -321,7 +321,7 @@ http://filex.me:8080/live/omer123/002773/2093170.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Sony Tv 
 https://drk6xq0vhn.gpcdn.net/live/sony_ent_hd_abr/index.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Sony Tv HD
-http://198.195.239.50:8095/SONY.ENT.HD/index.m3u8
+http://103.185.24.134:3001/SonyEntertainmentTelevisionHD/index.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Zee Tv
 https://stream.ottplus.live/live/zee_tv_hd_abr/index.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Zee Tv HD
