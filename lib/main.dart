@@ -292,8 +292,11 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
       }
 
       // Keep PTV and remove duplicate URLs.
-      final updated = <Channel>[ptvChannel];
-      final seen = <String>{ptvChannel.url};
+     const Channel ptvChannel = Channel(
+  name: 'PTV ',
+  url: ptvStreamUrl,
+  group: 'Sports',
+);
 
       for (final channel in parsed) {
         if (seen.add(channel.url)) {
