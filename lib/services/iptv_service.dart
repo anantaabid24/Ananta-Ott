@@ -3,9 +3,14 @@ import '../models/channel.dart';
 
 class IptvService {
   final Dio _dio = Dio();
+  String _playlistUrl = 'https://raw.githubusercontent.com/anantaabid24/Ananta-Ott/refs/heads/main/channels.m3u'; // CHANGE THIS!
 
-  Future<List<Channel>> loadPlaylist(String url) async {
-    final response = await _dio.get(url);
+  void setPlaylistUrl(String url) {
+    _playlistUrl = url;
+  }
+
+  Future<List<Channel>> loadPlaylist() async {
+    final response = await _dio.get(_playlistUrl);
     final String content = response.data.toString();
 
     List<Channel> channels = [];
@@ -20,10 +25,8 @@ class IptvService {
         final groupMatch = RegExp(r'group-title="(.*?)"').firstMatch(line);
         if (groupMatch != null) currentGroup = groupMatch.group(1) ?? "Live";
       } else if (line.startsWith('http') && line.length > 10) {
-        // We need to parse differently - using try-catch for simplicity
-        // In real code we would parse logo too
         channels.add(Channel(
-          id: DateTime.now().millisecondsSinceEpoch.toString(),
+          id: DateTime.now().millisecondsSinceEpoch.toString() + channels.length.toString(),
           name: 'Channel ${channels.length + 1}',
           group: currentGroup,
           url: line,
@@ -33,5 +36,14 @@ class IptvService {
       }
     }
     return channels;
+  }
+
+  // Demo fallback if your GitHub file is empty
+  List<Channel> getFallbackChannels() {
+    return [
+      Channel(id: '1', name: 'CNN', group: 'News', url: 'https://example.com/cnn.m3u8', logo: '', tvgId: 'cnn'),
+      Channel(id: '2', name: 'BBC', group: 'News', url: 'https://example.com/bbc.m3u8', logo: '', tvgId: 'bbc'),
+      Channel(id: '3', name: 'Fox News', group: 'News', url: 'https://example.com/fox.m3u8', logo: '', tvgId: 'fox'),
+    ];
   }
 }
