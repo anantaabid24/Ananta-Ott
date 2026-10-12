@@ -323,11 +323,11 @@ https://drk6xq0vhn.gpcdn.net/live/sony_ent_hd_abr/index.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Sony Tv HD
 http://103.185.24.134:3001/SonyEntertainmentTelevisionHD/index.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Zee Tv
-https://stream.ottplus.live/live/zee_tv_hd_abr/index.m3u8
+https://drk6xq0vhn.gpcdn.net/live/zee_tv_hd_abr/index.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Zee Tv HD
 https://d1rc86nwwc9fag.cloudfront.net/260723/zeetvapachd_2500/chunks.m3u8
 #EXTINF:-1,group-title="Hindi Entertainment",ZEE Anmol
-https://media.hmair.xyz/api/play/Zee%20Anmol.m3u8
+https://drk6xq0vhn.gpcdn.net/live/zee_anmol_abr/index.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Colors Rishtey
 https://d1rc86nwwc9fag.cloudfront.net/260723/rishteyuk_1800/chunks.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Colors Rishtey  HD
@@ -443,7 +443,7 @@ http://139.23.241.38:8088/203/tracks-v1a1/mono.m3u8
 https://box.bbaria.net:8083/Channel9/index.m3u8
 
 #EXTINF:-1 tvg-id="186" tvg-name="News 24 BD HD" tvg-logo="https://tinyurl.com/3d7332be" group-title="Bangla Entertainment",News 24 HD
-http://198.195.239.50:8095/NEWS.24/index.m3u8
+http://103.185.24.134:3001/NEWS24LIVE/index.m3u8
 
 #EXTINF:-1 tvg-id="99" tvg-name="NTV" tvg-logo="https://tinyurl.com/2s3kxdjh" group-title="Bangla Entertainment",NTV
 http://139.23.241.38:8088/208/tracks-v1a1/mono.m3u8
@@ -455,7 +455,7 @@ http://139.23.241.38:8088/207/tracks-v1a1/mono.m3u8
 https://drk6xq0vhn.gpcdn.net/live/channel_1_hd_abr/index.m3u8
 
 #EXTINF:-1 tvg-id="303" tvg-name="Desh TV" tvg-logo="https://shorturl.at/gWFVC" group-title="Bangla Entertainment",Desh TV
-http://livetv.akr4m.com:8080/bdtv/restrem/18.m3u8
+https://drk6xq0vhn.gpcdn.net/live/desh_tv_abr/index.m3u8
 
 #EXTINF:-1 tvg-id="100" tvg-name="Bangla Vision" tvg-logo="https://shorturl.at/9Gc9C" group-title="Bangla Entertainment",Bangla Vision
 http://139.23.241.38:8088/212/tracks-v1a1/mono.m3u8
@@ -488,13 +488,13 @@ https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
 https://tvsen6.aynaott.com/39ee93nUbCCmm5LsyD4t/index.m3u8
 
 #EXTINF:-1 ,tvg-name="NAGORIK TV HD"tvg-logo="https://tinyurl.com/553rubdj" group-title="Bangla Entertainment",NAGORIK TV
-http://livetv.akr4m.com:8080/bdtv/restrem/38.m3u8
+https://box.bbaria.net/Nagorik_TV/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 ,tvg-name="SRK TV HD"tvg-logo="https://tinyurl.com/mrj876v8" group-title="Bangla Entertainment",SRK TV
 https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8
 
 #EXTINF:-1 ,tvg-name="GLOBAL TV HD"tvg-logo="https://tinyurl.com/2amp736z" group-title="Bangla Entertainment",Global Tv
-http://livetv.akr4m.com:8080/bdtv/restrem/22.m3u8
+https://drk6xq0vhn.gpcdn.net/live/global_tv_abr/index.m3u8
 
 #EXTINF:-1 ,tvg-name="GREEN TV HD"tvg-logo="https://h1.nu/1CwbX" group-title="Bangla Entertainment",GREEN TV HD
 https://app.ncare.live/live-orgin/greentv.stream/playlist.m3u8
@@ -509,13 +509,13 @@ https://drk6xq0vhn.gpcdn.net/live/nexus_tv_abr/index.m3u8
 https://stream.shariarsuvo.com/hls6/rajdhaniweb.m3u8
 
 #EXTINF:-1 ,tvg-name="DURONTO TV HD"tvg-logo="https://h1.nu/1wOWt" group-title="Bangla Entertainment",DURONTO TV
-http://198.195.239.50:8095/duranta/tracks-v1a1/mono.m3u8
+http://103.185.24.134:3001/Duronto/index.m3u8
 
 #EXTINF:-1,tvg-name="EKHON TV HD"tvg-logo="https://h1.nu/1wOWG" group-title="Bangla Entertainment",EKHON TV HD
 https://drk6xq0vhn.gpcdn.net/live/ekhon_tv_abr/index.m3u8
 
 #EXTINF:-1,tvg-name="ANANDA TV HD"tvg-logo="https://h1.nu/1wOWY" group-title="Bangla Entertainment",Ananda TV
-http://livetv.akr4m.com:8080/bdtv/restrem/4.m3u8
+https://drk6xq0vhn.gpcdn.net/live/ananda_tv_abr/index.m3u8
 
 #EXTINF:-1,tvg-name="BOISHAKHI TV HD"tvg-logo="https://h1.nu/1wQQ7" group-title="Bangla Entertainment",Boishakhi TV
 https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8
