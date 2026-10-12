@@ -1,7 +1,5 @@
-
 import 'dart:async';
 import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
@@ -9,10 +7,8 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:video_player/video_player.dart';
 
 const String appName = 'Ananta OTT';
-
 const String playlistUrl =
     'https://raw.githubusercontent.com/anantaabid24/Ananta-Ott/refs/heads/main/channels.m3u';
-
 const String ptvStreamUrl =
     'http://103.185.24.134:3001/ptv/index.m3u8';
 
@@ -30,7 +26,6 @@ class Channel {
   final String url;
   final String group;
   final String logo;
-
   const Channel({
     required this.name,
     required this.url,
@@ -47,7 +42,6 @@ const Channel ptvChannel = Channel(
 
 class AnantaOttApp extends StatelessWidget {
   const AnantaOttApp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -69,34 +63,26 @@ class AnantaOttApp extends StatelessWidget {
 
 class AnantaHomePage extends StatefulWidget {
   const AnantaHomePage({super.key});
-
   @override
   State<AnantaHomePage> createState() => _AnantaHomePageState();
 }
 
 class _AnantaHomePageState extends State<AnantaHomePage> {
-  final TextEditingController _searchController =
-      TextEditingController();
-
+  final TextEditingController _searchController = TextEditingController();
   List<Channel> _channels = [ptvChannel];
   Set<String> _favorites = {};
-
   VideoPlayerController? _player;
   Channel? _selectedChannel;
-
   Timer? _controlsTimer;
-
   String _selectedCategory = 'All';
   String _searchQuery = '';
   String _status = 'Ready';
   String? _playerError;
-
   bool _loadingPlaylist = false;
   bool _connecting = false;
   bool _showFavoritesOnly = false;
   bool _controlsVisible = true;
   bool _fullscreen = false;
-
   int _playlistRequestId = 0;
   int _playRequestId = 0;
 
@@ -110,7 +96,6 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
   // --------------------------------------------------
   // GLASS EFFECT
   // --------------------------------------------------
-
   Widget _glass({
     required Widget child,
     EdgeInsetsGeometry padding = const EdgeInsets.all(10),
@@ -139,13 +124,10 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
   // --------------------------------------------------
   // FAVORITES
   // --------------------------------------------------
-
   Future<void> _loadFavorites() async {
     try {
       final prefs = await SharedPreferences.getInstance();
-
       if (!mounted) return;
-
       setState(() {
         _favorites =
             (prefs.getStringList('ananta_favorites') ?? []).toSet();
@@ -175,50 +157,39 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
         _favorites.add(channel.url);
       }
     });
-
     await _saveFavorites();
   }
 
   // --------------------------------------------------
   // M3U PARSER
   // --------------------------------------------------
-
   String _attribute(String line, String attribute) {
     final pattern = RegExp(
       '$attribute\\s*=\\s*["\\x27]([^"\\x27]*)',
       caseSensitive: false,
     );
-
     return pattern.firstMatch(line)?.group(1) ?? '';
   }
 
   List<Channel> _parseM3u(String content) {
     final result = <Channel>[];
     final lines = content.split(RegExp(r'\r?\n'));
-
     String? name;
     String group = 'Live TV';
     String logo = '';
-
     for (final rawLine in lines) {
       final line = rawLine.trim();
-
       if (line.isEmpty) continue;
-
       if (line.startsWith('#EXTINF')) {
         final comma = line.lastIndexOf(',');
-
         name = comma >= 0
             ? line.substring(comma + 1).trim()
             : 'Unknown channel';
-
         group = _attribute(line, 'group-title');
         logo = _attribute(line, 'tvg-logo');
-
         if (group.isEmpty) group = 'Live TV';
       } else if (!line.startsWith('#') && name != null) {
         final uri = Uri.tryParse(line);
-
         if (uri != null &&
             (uri.scheme == 'http' || uri.scheme == 'https') &&
             uri.host.isNotEmpty) {
@@ -231,42 +202,32 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
             ),
           );
         }
-
         name = null;
         group = 'Live TV';
         logo = '';
       }
     }
-
     return result;
   }
 
   // --------------------------------------------------
   // PLAYLIST REFRESH
   // --------------------------------------------------
-
   Future<void> _loadPlaylist() async {
     if (_loadingPlaylist) return;
-
     final requestId = ++_playlistRequestId;
-
     setState(() {
       _loadingPlaylist = true;
       _status = 'Loading latest playlist...';
     });
-
     try {
       final baseUri = Uri.parse(playlistUrl);
       final query = Map<String, String>.from(
         baseUri.queryParameters,
       );
-
-      // Avoid a cached playlist response.
       query['_refresh'] =
           DateTime.now().millisecondsSinceEpoch.toString();
-
       final uri = baseUri.replace(queryParameters: query);
-
       final response = await http
           .get(
             uri,
@@ -278,53 +239,38 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
             },
           )
           .timeout(const Duration(seconds: 25));
-
       if (response.statusCode != 200) {
         throw Exception(
           'Playlist server returned HTTP ${response.statusCode}',
         );
       }
-
       final parsed = _parseM3u(response.body);
-
       if (parsed.isEmpty) {
         throw Exception('No valid channels found in the M3U file.');
       }
-
-      // Keep PTV and remove duplicate URLs.
       final updated = <Channel>[ptvChannel];
       final seen = <String>{ptvChannel.url};
-
       for (final channel in parsed) {
         if (seen.add(channel.url)) {
           updated.add(channel);
         }
       }
-
       if (!mounted || requestId != _playlistRequestId) return;
-
       final groups = updated.map((c) => c.group).toSet();
-
       setState(() {
         _channels = updated;
-
         if (_selectedCategory != 'All' &&
             !groups.contains(_selectedCategory)) {
           _selectedCategory = 'All';
         }
-
         _status = '${updated.length} channels loaded';
       });
     } catch (e) {
       debugPrint('Playlist refresh error: $e');
-
       if (!mounted || requestId != _playlistRequestId) return;
-
       setState(() {
-        // Do not erase the existing channels if refresh fails.
         _status = 'Refresh failed; existing channels retained';
       });
-
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
           content: Text('Playlist refresh failed: $e'),
@@ -344,15 +290,12 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
   // --------------------------------------------------
   // PLAYER CONTROLS AUTO-HIDE
   // --------------------------------------------------
-
   void _scheduleControlsHide() {
     _controlsTimer?.cancel();
-
     _controlsTimer = Timer(
       const Duration(seconds: 2),
       () {
         if (!mounted) return;
-
         if (_player?.value.isInitialized == true) {
           setState(() {
             _controlsVisible = false;
@@ -364,11 +307,9 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
 
   void _showPlayerControls() {
     if (!mounted) return;
-
     setState(() {
       _controlsVisible = true;
     });
-
     if (_player?.value.isInitialized == true) {
       _scheduleControlsHide();
     }
@@ -386,15 +327,11 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
   // --------------------------------------------------
   // PLAYBACK
   // --------------------------------------------------
-
   Future<void> _playChannel(Channel channel) async {
     if (_connecting) return;
-
     final requestId = ++_playRequestId;
     final oldPlayer = _player;
-
     _controlsTimer?.cancel();
-
     final controller = VideoPlayerController.networkUrl(
       Uri.parse(channel.url),
       httpHeaders: const {
@@ -403,7 +340,6 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
         'Connection': 'keep-alive',
       },
     );
-
     setState(() {
       _player = controller;
       _selectedChannel = channel;
@@ -412,40 +348,30 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
       _controlsVisible = true;
       _status = 'Connecting to ${channel.name}...';
     });
-
     try {
       await oldPlayer?.dispose();
-
       await controller.initialize().timeout(
         const Duration(seconds: 35),
       );
-
       if (!mounted || requestId != _playRequestId) {
         await controller.dispose();
         return;
       }
-
       if (controller.value.hasError) {
         throw Exception(
           controller.value.errorDescription ?? 'Player error',
         );
       }
-
       await controller.play();
-
       if (!mounted || requestId != _playRequestId) return;
-
       setState(() {
         _status = 'Playing ${channel.name}';
         _connecting = false;
       });
-
       _scheduleControlsHide();
     } on TimeoutException {
       await controller.dispose();
-
       if (!mounted || requestId != _playRequestId) return;
-
       setState(() {
         _player = null;
         _playerError = 'Connection timed out. Please retry.';
@@ -454,11 +380,8 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
       });
     } catch (e) {
       debugPrint('Playback error for ${channel.url}: $e');
-
       await controller.dispose();
-
       if (!mounted || requestId != _playRequestId) return;
-
       setState(() {
         _player = null;
         _playerError = e.toString();
@@ -470,18 +393,14 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
 
   Future<void> _togglePlayback() async {
     final player = _player;
-
     if (player == null || !player.value.isInitialized) return;
-
     try {
       if (player.value.isPlaying) {
         await player.pause();
       } else {
         await player.play();
       }
-
       if (!mounted) return;
-
       setState(() {});
       _showPlayerControls();
     } catch (e) {
@@ -491,51 +410,44 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
 
   Future<void> _changeChannel(int direction) async {
     final list = _visibleChannels;
-
     if (list.isEmpty || _connecting) return;
-
     final currentIndex = list.indexWhere(
       (channel) => channel.url == _selectedChannel?.url,
     );
-
     final nextIndex = currentIndex == -1
         ? (direction > 0 ? 0 : list.length - 1)
         : (currentIndex + direction + list.length) % list.length;
-
     await _playChannel(list[nextIndex]);
   }
 
   // --------------------------------------------------
-  // FULLSCREEN
+  // FULLSCREEN - FIXED: Horizontal only when entering, vertical only when exiting
   // --------------------------------------------------
-
   Future<void> _setFullscreen(bool value) async {
     if (value) {
+      // Enter fullscreen from the app's current orientation (horizontal on mobile phones)
       await SystemChrome.setPreferredOrientations([
         DeviceOrientation.landscapeLeft,
         DeviceOrientation.landscapeRight,
       ]);
-
       await SystemChrome.setEnabledSystemUIMode(
         SystemUiMode.immersiveSticky,
       );
     } else {
+      // Exit fullscreen - force back to portrait (vertical)
+      await SystemChrome.setPreferredOrientations([
+        DeviceOrientation.portraitUp,
+        DeviceOrientation.portraitDown,
+      ]);
       await SystemChrome.setEnabledSystemUIMode(
         SystemUiMode.edgeToEdge,
       );
-
-      await SystemChrome.setPreferredOrientations(
-        DeviceOrientation.values,
-      );
     }
-
     if (!mounted) return;
-
     setState(() {
       _fullscreen = value;
       _controlsVisible = true;
     });
-
     _scheduleControlsHide();
   }
 
@@ -544,42 +456,34 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
       await _setFullscreen(false);
       return false;
     }
-
     return true;
   }
 
   // --------------------------------------------------
   // CATEGORY FILTERS
   // --------------------------------------------------
-
   List<String> get _categories {
     final groups = _channels
         .map((channel) => channel.group.trim())
         .where((group) => group.isNotEmpty)
         .toSet()
         .toList();
-
     groups.sort(
       (a, b) => a.toLowerCase().compareTo(b.toLowerCase()),
     );
-
     return ['All', ...groups];
   }
 
   List<Channel> get _visibleChannels {
     final query = _searchQuery.trim().toLowerCase();
-
     return _channels.where((channel) {
       final matchesCategory = _selectedCategory == 'All' ||
           channel.group == _selectedCategory;
-
       final matchesSearch =
           channel.name.toLowerCase().contains(query) ||
           channel.group.toLowerCase().contains(query);
-
       final matchesFavorite = !_showFavoritesOnly ||
           _favorites.contains(channel.url);
-
       return matchesCategory && matchesSearch && matchesFavorite;
     }).toList();
   }
@@ -587,11 +491,9 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
   // --------------------------------------------------
   // PLAYER UI
   // --------------------------------------------------
-
   Widget _buildPlayer({required bool fullscreen}) {
     final player = _player;
     final initialized = player?.value.isInitialized == true;
-
     return GestureDetector(
       behavior: HitTestBehavior.opaque,
       onTap: initialized ? _togglePlayerControls : null,
@@ -627,7 +529,6 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
                             : Colors.redAccent,
                       ),
               ),
-
             // All controls disappear together after 2 seconds.
             if (_controlsVisible) ...[
               Positioned(
@@ -677,7 +578,6 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
                   ),
                 ),
               ),
-
               if (initialized)
                 Center(
                   child: _glass(
@@ -737,7 +637,6 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
                     ),
                   ),
                 ),
-
               if (initialized)
                 Positioned(
                   bottom: 8,
@@ -792,7 +691,6 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
                     ),
                   ),
                 ),
-
               if (_playerError != null)
                 Center(
                   child: FilledButton.icon(
@@ -813,7 +711,6 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
   // --------------------------------------------------
   // CATEGORY CHIPS
   // --------------------------------------------------
-
   Widget _buildCategories() {
     return SizedBox(
       height: 46,
@@ -825,7 +722,6 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
         itemBuilder: (context, index) {
           final category = _categories[index];
           final selected = _selectedCategory == category;
-
           return ChoiceChip(
             label: Text(category),
             selected: selected,
@@ -850,11 +746,9 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
   // --------------------------------------------------
   // CHANNEL TILE
   // --------------------------------------------------
-
   Widget _buildChannelTile(Channel channel) {
     final selected = _selectedChannel?.url == channel.url;
     final favorite = _favorites.contains(channel.url);
-
     return Padding(
       padding: const EdgeInsets.symmetric(
         horizontal: 12,
@@ -924,7 +818,6 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
   // --------------------------------------------------
   // DISPOSE
   // --------------------------------------------------
-
   @override
   void dispose() {
     _controlsTimer?.cancel();
@@ -932,25 +825,21 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
     _playRequestId++;
     _searchController.dispose();
     _player?.dispose();
-
     SystemChrome.setEnabledSystemUIMode(
       SystemUiMode.edgeToEdge,
     );
     SystemChrome.setPreferredOrientations(
       DeviceOrientation.values,
     );
-
     super.dispose();
   }
 
   // --------------------------------------------------
   // MAIN SCREEN
   // --------------------------------------------------
-
   @override
   Widget build(BuildContext context) {
     final channels = _visibleChannels;
-
     return WillPopScope(
       onWillPop: _handleBack,
       child: Scaffold(
