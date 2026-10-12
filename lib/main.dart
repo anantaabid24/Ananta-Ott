@@ -8,7 +8,7 @@ import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:video_player/video_player.dart';
 
-const String appName = 'Ananta OTT';
+const String appName = 'Ananta Ott';
 
 const String playlistUrl =
     'https://raw.githubusercontent.com/anantaabid24/Ananta-Ott/refs/heads/main/channels.m3u';
@@ -976,7 +976,7 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
                     ),
                     SizedBox(width: 8),
                     Text(
-                      'Ananta OTT',
+                      'Ananta Ott',
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         letterSpacing: 0.3,
@@ -1015,9 +1015,12 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
                   ),
                 ],
               ),
-        body: _fullscreen
-            ? _buildPlayer(fullscreen: true)
-            : Container(
+        // Keep the home screen mounted underneath fullscreen. This preserves
+        // the channel ListView's scroll offset, search text, and filters.
+        body: Stack(
+          fit: StackFit.expand,
+          children: [
+            Container(
                 decoration: const BoxDecoration(
                   gradient: LinearGradient(
                     begin: Alignment.topLeft,
@@ -1031,7 +1034,10 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
                 ),
                 child: Column(
                   children: [
-                    _buildPlayer(fullscreen: false),
+                    if (!_fullscreen)
+                      _buildPlayer(fullscreen: false)
+                    else
+                      const SizedBox(height: 220, child: ColoredBox(color: Colors.black)),
                     Padding(
                       padding: const EdgeInsets.fromLTRB(
                         14,
@@ -1144,6 +1150,12 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
                   ],
                 ),
               ),
+            if (_fullscreen)
+              Positioned.fill(
+                child: _buildPlayer(fullscreen: true),
+              ),
+          ],
+        ),
       ),
     );
   }
