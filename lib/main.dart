@@ -5,7 +5,6 @@ import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:video_player/video_player.dart';
-import 'package:wakelock_plus/wakelock_plus.dart';
 
 const String appName = 'Ananta OTT';
 const String playlistUrl =
@@ -49,8 +48,6 @@ class AnantaOttApp extends StatelessWidget {
       title: appName,
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        visualDensity: VisualDensity.standard,
-        materialTapTargetSize: MaterialTapTargetSize.padded,
         useMaterial3: true,
         brightness: Brightness.dark,
         scaffoldBackgroundColor: backgroundColor,
@@ -366,8 +363,6 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
         );
       }
       await controller.play();
-      // Keep the display awake for the duration of live playback.
-      await WakelockPlus.enable();
       if (!mounted || requestId != _playRequestId) return;
       setState(() {
         _status = 'Playing ${channel.name}';
@@ -377,7 +372,6 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
     } on TimeoutException {
       await controller.dispose();
       if (!mounted || requestId != _playRequestId) return;
-      await WakelockPlus.disable();
       setState(() {
         _player = null;
         _playerError = 'Connection timed out. Please retry.';
@@ -386,7 +380,6 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
       });
     } catch (e) {
       debugPrint('Playback error for ${channel.url}: $e');
-      await WakelockPlus.disable();
       await controller.dispose();
       if (!mounted || requestId != _playRequestId) return;
       setState(() {
@@ -404,10 +397,8 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
     try {
       if (player.value.isPlaying) {
         await player.pause();
-        await WakelockPlus.disable();
       } else {
         await player.play();
-        await WakelockPlus.enable();
       }
       if (!mounted) return;
       setState(() {});
@@ -434,16 +425,23 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
   // --------------------------------------------------
   Future<void> _setFullscreen(bool value) async {
     if (value) {
+      // Enter fullscreen from the app's current orientation (horizontal on mobile phones)
       await SystemChrome.setPreferredOrientations([
         DeviceOrientation.landscapeLeft,
         DeviceOrientation.landscapeRight,
       ]);
-      await SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
+      await SystemChrome.setEnabledSystemUIMode(
+        SystemUiMode.immersiveSticky,
+      );
     } else {
-      // Restore sensor/system orientation rather than locking every phone to portrait.
-      // Android TV devices can remain in their normal landscape orientation.
-      await SystemChrome.setPreferredOrientations(DeviceOrientation.values);
-      await SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
+      // Exit fullscreen - force back to portrait (vertical)
+      await SystemChrome.setPreferredOrientations([
+        DeviceOrientation.portraitUp,
+        DeviceOrientation.portraitDown,
+      ]);
+      await SystemChrome.setEnabledSystemUIMode(
+        SystemUiMode.edgeToEdge,
+      );
     }
     if (!mounted) return;
     setState(() {
@@ -752,28 +750,17 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
     final selected = _selectedChannel?.url == channel.url;
     final favorite = _favorites.contains(channel.url);
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
-      child: Focus(
-        onKeyEvent: (node, event) {
-          if (event is KeyDownEvent &&
-              (event.logicalKey == LogicalKeyboardKey.select ||
-               event.logicalKey == LogicalKeyboardKey.enter ||
-               event.logicalKey == LogicalKeyboardKey.numpadEnter ||
-               event.logicalKey == LogicalKeyboardKey.gameButtonA)) {
-            _playChannel(channel);
-            return KeyEventResult.handled;
-          }
-          return KeyEventResult.ignored;
-        },
-        child: Builder(builder: (context) {
-          final focused = Focus.of(context).hasFocus;
-          return _glass(
+      padding: const EdgeInsets.symmetric(
+        horizontal: 12,
+        vertical: 4,
+      ),
+      child: _glass(
         radius: 15,
         padding: EdgeInsets.zero,
-        color: focused ? const Color(0xFF514477) : (selected ? const Color(0xFF373052) : glassColor),
+        color: selected
+            ? const Color(0xFF373052)
+            : glassColor,
         child: ListTile(
-          focusColor: accentColor.withOpacity(0.22),
-          hoverColor: accentColor.withOpacity(0.16),
           dense: true,
           contentPadding: const EdgeInsets.symmetric(
             horizontal: 12,
@@ -824,8 +811,6 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
           ),
           onTap: () => _playChannel(channel),
         ),
-          );
-        }),
       ),
     );
   }
@@ -840,7 +825,6 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
     _playRequestId++;
     _searchController.dispose();
     _player?.dispose();
-    WakelockPlus.disable();
     SystemChrome.setEnabledSystemUIMode(
       SystemUiMode.edgeToEdge,
     );
