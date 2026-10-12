@@ -8,7 +8,7 @@ import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:video_player/video_player.dart';
 
-const String appName = 'Ananta Ott';
+const String appName = 'Ananta OTT';
 
 const String playlistUrl =
     'https://raw.githubusercontent.com/anantaabid24/Ananta-Ott/refs/heads/main/channels.m3u';
@@ -39,7 +39,7 @@ class Channel {
   });
 }
 
-const Channel Channel = Channel(
+const Channel ptvChannel = Channel(
   name: 'PTV ',
   url: ptvStreamUrl,
   group: 'Sports',
@@ -292,11 +292,8 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
       }
 
       // Keep PTV and remove duplicate URLs.
-     const Channel ptvChannel = Channel(
-  name: 'PTV ',
-  url: ptvStreamUrl,
-  group: 'Sports',
-);
+      final updated = <Channel>[ptvChannel];
+      final seen = <String>{ptvChannel.url};
 
       for (final channel in parsed) {
         if (seen.add(channel.url)) {
@@ -352,7 +349,7 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
     _controlsTimer?.cancel();
 
     _controlsTimer = Timer(
-      const Duration(milliseconds: 900),
+      const Duration(seconds: 2),
       () {
         if (!mounted) return;
 
@@ -512,52 +509,34 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
   // FULLSCREEN
   // --------------------------------------------------
 
-  bool _fullscreenTransitioning = false;
-
   Future<void> _setFullscreen(bool value) async {
-    if (_fullscreen == value || _fullscreenTransitioning) return;
+    if (value) {
+      await SystemChrome.setPreferredOrientations([
+        DeviceOrientation.landscapeLeft,
+        DeviceOrientation.landscapeRight,
+      ]);
 
-    _fullscreenTransitioning = true;
-    _controlsTimer?.cancel();
+      await SystemChrome.setEnabledSystemUIMode(
+        SystemUiMode.immersiveSticky,
+      );
+    } else {
+      await SystemChrome.setEnabledSystemUIMode(
+        SystemUiMode.edgeToEdge,
+      );
 
-    try {
-      if (value) {
-        // Enter fullscreen: landscape orientation and hidden system bars.
-        await SystemChrome.setPreferredOrientations(
-          const [
-            DeviceOrientation.landscapeLeft,
-            DeviceOrientation.landscapeRight,
-          ],
-        );
-        await SystemChrome.setEnabledSystemUIMode(
-          SystemUiMode.immersiveSticky,
-        );
-      } else {
-        // Exit fullscreen: restore the app's normal portrait dimensions.
-        await SystemChrome.setPreferredOrientations(
-          const [DeviceOrientation.portraitUp],
-        );
-        await SystemChrome.setEnabledSystemUIMode(
-          SystemUiMode.edgeToEdge,
-        );
-      }
-
-      if (!mounted) return;
-
-      setState(() {
-        _fullscreen = value;
-        _controlsVisible = true;
-      });
-
-      // Let Flutter finish laying out the restored screen before hiding controls.
-      WidgetsBinding.instance.addPostFrameCallback((_) {
-        if (mounted) _scheduleControlsHide();
-      });
-    } catch (e) {
-      debugPrint('Fullscreen transition error: $e');
-    } finally {
-      _fullscreenTransitioning = false;
+      await SystemChrome.setPreferredOrientations(
+        DeviceOrientation.values,
+      );
     }
+
+    if (!mounted) return;
+
+    setState(() {
+      _fullscreen = value;
+      _controlsVisible = true;
+    });
+
+    _scheduleControlsHide();
   }
 
   Future<bool> _handleBack() async {
@@ -658,8 +637,8 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
                 child: _glass(
                   radius: 12,
                   padding: const EdgeInsets.symmetric(
-                    horizontal: 6,
-                    vertical: 0,
+                    horizontal: 8,
+                    vertical: 1,
                   ),
                   child: Row(
                     children: [
@@ -681,19 +660,17 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
                         tooltip: 'Fullscreen',
                         visualDensity: VisualDensity.compact,
                         constraints: const BoxConstraints(
-                          minWidth: 28,
-                          minHeight: 28,
+                          minWidth: 34,
+                          minHeight: 34,
                         ),
                         padding: EdgeInsets.zero,
-                        onPressed: () {
-                          _setFullscreen(!_fullscreen);
-                          _showPlayerControls();
-                        },
+                        onPressed: () =>
+                            _setFullscreen(!_fullscreen),
                         icon: Icon(
                           fullscreen
                               ? Icons.fullscreen_exit
                               : Icons.fullscreen,
-                          size: 18,
+                          size: 21,
                         ),
                       ),
                     ],
@@ -706,8 +683,8 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
                   child: _glass(
                     radius: 28,
                     padding: const EdgeInsets.symmetric(
-                      horizontal: 2,
-                      vertical: 0,
+                      horizontal: 4,
+                      vertical: 1,
                     ),
                     child: Row(
                       mainAxisSize: MainAxisSize.min,
@@ -716,25 +693,22 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
                           tooltip: 'Previous channel',
                           visualDensity: VisualDensity.compact,
                           constraints: const BoxConstraints(
-                            minWidth: 26,
-                            minHeight: 26,
+                            minWidth: 36,
+                            minHeight: 36,
                           ),
                           padding: EdgeInsets.zero,
-                          onPressed: () {
-                            _changeChannel(-1);
-                            _showPlayerControls();
-                          },
+                          onPressed: () => _changeChannel(-1),
                           icon: const Icon(
                             Icons.skip_previous_rounded,
-                            size: 19,
+                            size: 23,
                           ),
                         ),
                         IconButton(
                           tooltip: 'Play or pause',
                           visualDensity: VisualDensity.compact,
                           constraints: const BoxConstraints(
-                            minWidth: 34,
-                            minHeight: 34,
+                            minWidth: 40,
+                            minHeight: 40,
                           ),
                           padding: EdgeInsets.zero,
                           onPressed: _togglePlayback,
@@ -742,24 +716,21 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
                             player!.value.isPlaying
                                 ? Icons.pause_circle_filled
                                 : Icons.play_circle_fill,
-                            size: 25,
+                            size: 30,
                           ),
                         ),
                         IconButton(
                           tooltip: 'Next channel',
                           visualDensity: VisualDensity.compact,
                           constraints: const BoxConstraints(
-                            minWidth: 30,
-                            minHeight: 30,
+                            minWidth: 36,
+                            minHeight: 36,
                           ),
                           padding: EdgeInsets.zero,
-                          onPressed: () {
-                            _changeChannel(1);
-                            _showPlayerControls();
-                          },
+                          onPressed: () => _changeChannel(1),
                           icon: const Icon(
                             Icons.skip_next_rounded,
-                            size: 19,
+                            size: 23,
                           ),
                         ),
                       ],
@@ -775,8 +746,8 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
                   child: _glass(
                     radius: 10,
                     padding: const EdgeInsets.symmetric(
-                      horizontal: 6,
-                      vertical: 4,
+                      horizontal: 9,
+                      vertical: 7,
                     ),
                     child: Row(
                       children: [
@@ -803,10 +774,9 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
                           padding: EdgeInsets.zero,
                           onPressed: _selectedChannel == null
                               ? null
-                              : () {
-                                  _toggleFavorite(_selectedChannel!);
-                                  _showPlayerControls();
-                                },
+                              : () => _toggleFavorite(
+                                    _selectedChannel!,
+                                  ),
                           icon: Icon(
                             _selectedChannel != null &&
                                     _favorites.contains(
@@ -814,7 +784,7 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
                                     )
                                 ? Icons.favorite
                                 : Icons.favorite_border,
-                            size: 16,
+                            size: 19,
                             color: Colors.pinkAccent,
                           ),
                         ),
@@ -997,7 +967,7 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
                     ),
                     SizedBox(width: 8),
                     Text(
-                      'Ananta Ott',
+                      'Ananta OTT',
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         letterSpacing: 0.3,
@@ -1036,12 +1006,9 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
                   ),
                 ],
               ),
-        // Keep the home screen mounted underneath fullscreen. This preserves
-        // the channel ListView's scroll offset, search text, and filters.
-        body: Stack(
-          fit: StackFit.expand,
-          children: [
-            Container(
+        body: _fullscreen
+            ? _buildPlayer(fullscreen: true)
+            : Container(
                 decoration: const BoxDecoration(
                   gradient: LinearGradient(
                     begin: Alignment.topLeft,
@@ -1055,10 +1022,7 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
                 ),
                 child: Column(
                   children: [
-                    if (!_fullscreen)
-                      _buildPlayer(fullscreen: false)
-                    else
-                      const SizedBox(height: 220, child: ColoredBox(color: Colors.black)),
+                    _buildPlayer(fullscreen: false),
                     Padding(
                       padding: const EdgeInsets.fromLTRB(
                         14,
@@ -1171,12 +1135,6 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
                   ],
                 ),
               ),
-            if (_fullscreen)
-              Positioned.fill(
-                child: _buildPlayer(fullscreen: true),
-              ),
-          ],
-        ),
       ),
     );
   }
