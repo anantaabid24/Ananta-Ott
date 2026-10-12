@@ -1,103 +1,103 @@
 #EXTM3U
-#EXTINF:-1 ,tvg-name="T SPORTS"tvg-logo="https://h1.nu/1wQSu"group-title="Sports,T-Sports
+#EXTINF:-1 ,tvg-name="T SPORTS"tvg-logo="https://h1.nu/1wQSu"group-title="Sports"',T-Sports
 http://198.195.239.50:8095/T-SPORTS-HD/index.m3u8
-#EXTINF:-1 ,group-title="Sports",Star Sports Select 1 HD
+#EXTINF:-1 ,group-title="Sports"",Star Sports Select 1 HD
 http://livetv.akr4m.com:8080/bdtv/restrem/40.m3u8
-#EXTINF:-1 ,group-title="Sports",Star Sports Select 2 HD
+#EXTINF:-1 ,group-title="Sports"",Star Sports Select 2 HD
 http://filex.me/live/omer123/002773/52100.m3u8
-#EXTINF:-1 ,group-title="Sports",Star Sports 1 HD
+#EXTINF:-1 ,group-title="Sports"",Star Sports 1 HD
 http://livetv.akr4m.com:8080/bdtv/restrem/39.m3u8
-#EXTINF:-1 ,group-title="Sports",Star Sports 2 HD
+#EXTINF:-1 ,group-title="Sports"",Star Sports 2 HD
 http://198.195.239.50:8095/STAR.SPORTS2.HD/index.m3u8
-#EXTINF:-1 ,group-title="Sports",Star Sports 2 HINDI HD
+#EXTINF:-1 ,group-title="Sports"",Star Sports 2 HINDI HD
 http://mino66.xyz/live/MgGZSAyfQGzCZGo/0qFiZbT2pD/1404536.ts
-#EXTINF:-1 ,group-title="Sports,Star Sports 3
+#EXTINF:-1 ,group-title="Sports",Star Sports 3
 http://198.195.239.50:8095/STAR-SPORTS.3/index.m3u8
-#EXTINF:-1 ,group-title="Sports,Star Sports khel
+#EXTINF:-1 ,group-title="Sports",Star Sports khel
 http://filex.me/live/omer123/002773/957586.m3u8
-#EXTINF:-1,group-title="Sports", STAR 4K
+#EXTINF:-1,group-title="Sports"", STAR 4K
 http://filex.me/live/omer123/002773/966306.m3u8
-#EXTINF:-1 ,group-title="Sports",Sony Ten 1 HD
+#EXTINF:-1 ,group-title="Sports"",Sony Ten 1 HD
 http://filex.me/live/omer123/002773/52083.m3u8
-#EXTINF:-1 ,group-title="Sports",Sony Ten 2 HD
+#EXTINF:-1 ,group-title="Sports"",Sony Ten 2 HD
 http://198.195.239.50:8095/SONY.SPORTS2.HD/index.m3u8
-#EXTINF:-1 ,group-title="Sports",Sony Ten 3 
+#EXTINF:-1 ,group-title="Sports"",Sony Ten 3 
 http://198.195.239.50:8095/SONY.SPORTS.3/index.m3u8
-#EXTINF:-1 ,group-title="Sports",Sony Ten 3 HD
+#EXTINF:-1 ,group-title="Sports"",Sony Ten 3 HD
 http://filex.me/live/omer123/002773/52086.m3u8
-#EXTINF:-1 ,group-title="Sports",Sony Ten 4
+#EXTINF:-1 ,group-title="Sports"",Sony Ten 4
 http://198.195.239.50:8095/SONY.SPORTS.4/index.m3u8
-#EXTINF:-1 ,group-title="Sports",Sony Ten 5 HD
+#EXTINF:-1 ,group-title="Sports"",Sony Ten 5 HD
 http://198.195.239.50:8095/SONY-SPORTS.5HD/index.m3u8
-#EXTINF:-1 ,group-title="Sports",Unite8 Sports HD 1
+#EXTINF:-1 ,group-title="Sports"",Unite8 Sports HD 1
 http://198.195.239.50:8095/UNITE8.1.HD/index.m3u8
-#EXTINF:-1 ,group-title="Sports",Unite8 Sports HD 2
+#EXTINF:-1 ,group-title="Sports"",Unite8 Sports HD 2
 http://www.albshipe.com/live/F917341/23LUD11/808789.m3u8
-#EXTINF:-1,group-title="Sports",Ten Cricket HD
+#EXTINF:-1,group-title="Sports"",Ten Cricket HD
 https://drk6xq0vhn.gpcdn.net/live/ten_cricket_hd_abr/index.m3u8
-#EXTINF:-1 ,group-title="Sports",Eurosport HD
+#EXTINF:-1 ,group-title="Sports"",Eurosport HD
 https://drk6xq0vhn.gpcdn.net/live/euro_sports_hd_abr/index.m3u8
-#EXTINF:-1,group-title="Sports", TEN SPORTS
+#EXTINF:-1,group-title="Sports"", TEN SPORTS
 http://filex.me/live/omer123/002773/52106.m3u8
-#EXTINF:-1 ,group-title="Sports",A Sports HD
+#EXTINF:-1 ,group-title="Sports"",A Sports HD
 http://103.185.24.134:3001/A-SPORTS-HD/index.m3u8
-#EXTINF:-1 ,group-title="Sports",GEO SUPER HD
+#EXTINF:-1 ,group-title="Sports"",GEO SUPER HD
 http://filex.me/live/omer123/002773/52080.m3u8
-#EXTINF:-1 ,group-title="Sports",Ptv Sports HD
+#EXTINF:-1 ,group-title="Sports"",Ptv Sports HD
 http://103.185.24.134:3001/ptv/index.m3u8
-#EXTINF:-1 ,group-title="Sports",Fast Sports
+#EXTINF:-1 ,group-title="Sports"",Fast Sports
 http://198.195.239.50:8095/FAST.SPORTS.HD/index.m3u8
-#EXTINF:-1 ,group-title="Sports",ASTRO PREMIER 2 HD
+#EXTINF:-1 ,group-title="Sports"",ASTRO PREMIER 2 HD
 http://pixtv.org/live/Y8EF19JC9S2E529/NZCZbqDgoz/955663.m3u8
-#EXTINF:-1 ,group-title="Sports",ASTRO GRANDSTAND HD
+#EXTINF:-1 ,group-title="Sports"",ASTRO GRANDSTAND HD
 http://trxx.in:80/play/live.php?mac=00:1A:79:D2:3D:EE&stream=918984&extension=ts
-#EXTINF:-1 ,group-title="Sports",ASTRO Football
+#EXTINF:-1 ,group-title="Sports"",ASTRO Football
 http://pixtv.org/live/Y8EF19JC9S2E529/NZCZbqDgoz/1170917.m3u8
-#EXTINF:-1 ,group-title="Sports",ASTRO 30
+#EXTINF:-1 ,group-title="Sports"",ASTRO 30
 http://pixtv.org/live/Y8EF19JC9S2E529/NZCZbqDgoz/955665.m3u8
-#EXTINF:-1,group-title="Sports", Premier Sports 1 HD
+#EXTINF:-1,group-title="Sports"", Premier Sports 1 HD
 http://filex.me/live/omer123/002773/1861569.m3u8
-#EXTINF:-1,group-title="Sports", Premier Sports 2 HD
+#EXTINF:-1,group-title="Sports"", Premier Sports 2 HD
 http://filex.me/live/omer123/002773/495239.m3u8
-#EXTINF:-1,group-title="Sports",ESPN DESPORTS
+#EXTINF:-1,group-title="Sports"",ESPN DESPORTS
 http://filex.me/live/omer123/002773/1861566.m3u8
-#EXTINF:-1,group-title="Sports",M PLUS
+#EXTINF:-1,group-title="Sports"",M PLUS
 http://filex.me/live/omer123/002773/1861572.m3u8
-#EXTINF:-1 ,group-title="Sports",Willow Sport 
+#EXTINF:-1 ,group-title="Sports"",Willow Sport 
 https://playztv-apps.pages.dev/willow/index.m3u8
-#EXTINF:-1 ,group-title="Sports",Cricbuzz
+#EXTINF:-1 ,group-title="Sports"",Cricbuzz
 http://filex.me/live/omer123/002773/451415.m3u8
-#EXTINF:-1 ,group-title="Sports",Cricbuzz 2
+#EXTINF:-1 ,group-title="Sports"",Cricbuzz 2
 http://filex.me/live/omer123/002773/296353.m3u8
-#EXTINF:-1 ,group-title="Sports",Willow Sports 
+#EXTINF:-1 ,group-title="Sports"",Willow Sports 
 https://tvsen5.aynascope.net/willowhd/index.m3u8
-#EXTINF:-1 ,group-title="Sports",DD SPORTS 
+#EXTINF:-1 ,group-title="Sports"",DD SPORTS 
 https://cdn.pishow.tv/ott/live/13/master.m3u8
-#EXTINF:-1,group-title="Sports", A Spor
+#EXTINF:-1,group-title="Sports"", A Spor
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_1080p.m3u8
-#EXTINF:-1,group-title="Sports", Bein Sports XTRA
+#EXTINF:-1,group-title="Sports"", Bein Sports XTRA
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
-#EXTINF:-1,group-title="Sports", FOX 501
+#EXTINF:-1,group-title="Sports"", FOX 501
 http://filex.me/live/omer123/002773/247166.m3u8
-#EXTINF:-1,group-title="Sports", Super Cricket
+#EXTINF:-1,group-title="Sports"", Super Cricket
 http://filex.me/live/omer123/002773/53044.m3u8
-#EXTINF:-1,group-title="Sports", SKY SPORTS CRICKET
+#EXTINF:-1,group-title="Sports"", SKY SPORTS CRICKET
 http://filex.me/live/omer123/002773/956604.m3u8
-#EXTINF:-1,group-title="Sports", SKY SPORTS Football
+#EXTINF:-1,group-title="Sports"", SKY SPORTS Football
 http://filex.me/live/omer123/002773/956612.m3u8
-#EXTINF:-1,group-title="Sports", TNT SPORTS 1 HD
+#EXTINF:-1,group-title="Sports"", TNT SPORTS 1 HD
 http://filex.me/live/omer123/002773/529243.m3u8
-#EXTINF:-1,group-title="Sports", TNT SPORTS 2 HD
+#EXTINF:-1,group-title="Sports"", TNT SPORTS 2 HD
 http://filex.me/liveomer123/002773/495259.m3u8
-#EXTINF:-1,group-title="Sports", TNT SPORTS 3 HD
+#EXTINF:-1,group-title="Sports"", TNT SPORTS 3 HD
 http://filex.me/live/omer123/002773/529251.m3u8
-#EXTINF:-1,group-title="Sports",AYM SPORTS 
+#EXTINF:-1,group-title="Sports"",AYM SPORTS 
 https://cdnm.dhakastream.com:8880/tvbd/tvbdSamiul/247.m3u8
-#EXTINF:-1,group-title="Sports",STARZ PLAY 1
+#EXTINF:-1,group-title="Sports"",STARZ PLAY 1
 http://pixtv.org/live/RAY4910/zuOWzGGGPH/1201619.m3u8
-#EXTINF:-1,group-title="Sports",STARZ PLAY 2
+#EXTINF:-1,group-title="Sports"",STARZ PLAY 2
 http://pixtv.org/live/RAY4910/zuOWzGGGPH/1201621.m3u8
-#EXTINF:-1,group-title="Sports",STARZ PLAY 3
+#EXTINF:-1,group-title="Sports"",STARZ PLAY 3
 http://pixtv.org/live/RAY4910/zuOWzGGGPH/975100.m3u8
 
 
