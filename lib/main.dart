@@ -39,10 +39,10 @@ class Channel {
   });
 }
 
-const Channel ptvChannel = Channel(
-  name: 'PTV Local Stream',
+const Channel Channel = Channel(
+  name: 'PTV ',
   url: ptvStreamUrl,
-  group: 'Local TV',
+  group: 'Sports',
 );
 
 class AnantaOttApp extends StatelessWidget {
@@ -509,34 +509,52 @@ class _AnantaHomePageState extends State<AnantaHomePage> {
   // FULLSCREEN
   // --------------------------------------------------
 
+  bool _fullscreenTransitioning = false;
+
   Future<void> _setFullscreen(bool value) async {
-    if (value) {
-      await SystemChrome.setPreferredOrientations([
-        DeviceOrientation.landscapeLeft,
-        DeviceOrientation.landscapeRight,
-      ]);
+    if (_fullscreen == value || _fullscreenTransitioning) return;
 
-      await SystemChrome.setEnabledSystemUIMode(
-        SystemUiMode.immersiveSticky,
-      );
-    } else {
-      await SystemChrome.setEnabledSystemUIMode(
-        SystemUiMode.edgeToEdge,
-      );
+    _fullscreenTransitioning = true;
+    _controlsTimer?.cancel();
 
-      await SystemChrome.setPreferredOrientations(
-        DeviceOrientation.values,
-      );
+    try {
+      if (value) {
+        // Enter fullscreen: landscape orientation and hidden system bars.
+        await SystemChrome.setPreferredOrientations(
+          const [
+            DeviceOrientation.landscapeLeft,
+            DeviceOrientation.landscapeRight,
+          ],
+        );
+        await SystemChrome.setEnabledSystemUIMode(
+          SystemUiMode.immersiveSticky,
+        );
+      } else {
+        // Exit fullscreen: restore the app's normal portrait dimensions.
+        await SystemChrome.setPreferredOrientations(
+          const [DeviceOrientation.portraitUp],
+        );
+        await SystemChrome.setEnabledSystemUIMode(
+          SystemUiMode.edgeToEdge,
+        );
+      }
+
+      if (!mounted) return;
+
+      setState(() {
+        _fullscreen = value;
+        _controlsVisible = true;
+      });
+
+      // Let Flutter finish laying out the restored screen before hiding controls.
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (mounted) _scheduleControlsHide();
+      });
+    } catch (e) {
+      debugPrint('Fullscreen transition error: $e');
+    } finally {
+      _fullscreenTransitioning = false;
     }
-
-    if (!mounted) return;
-
-    setState(() {
-      _fullscreen = value;
-      _controlsVisible = true;
-    });
-
-    _scheduleControlsHide();
   }
 
   Future<bool> _handleBack() async {
