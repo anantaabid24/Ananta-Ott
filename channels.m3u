@@ -344,10 +344,10 @@ http://filex.me:8080/live/omer123/002773/56.m3u8
 https://drk6xq0vhn.gpcdn.net/live/and_tv_hd_abr/index.m3u8
 #EXTINF:-1,group-title="Hindi Entertainment",And TV HD
 http://filex.me:8080/live/omer123/002773/275040.m3u8
-#EXTINF:-1 ,group-title="Hindi Entertainment",Star Plus UK
+#EXTINF:-1 ,group-title="Hindi Entertainment",Star Plus 
 https://d1rc86nwwc9fag.cloudfront.net/260723/starplusuk_2500/chunks.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Star Plus HD
-http://198.195.239.50:8095/STAR.PLUS.HD/index.m3u8
+http://103.185.24.134:3001/Star-Plus/index.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Star Pravah HD
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starpravah.smil/index.m3u8
 #EXTINF:-1 , group-title="Hindi Entertainment",Star Utsav
