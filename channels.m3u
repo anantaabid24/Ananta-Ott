@@ -195,11 +195,11 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/NGCHD/default/NGCHD.m3u8
 http://103.185.24.134:3001/ZeeCinemaHD/tracks-v1a1/mono.m3u8
 #EXTINF:-1,group-title="Movies",Zee Cinema HD APAC
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:zeecinemaapachd.smil/index.m3u8
-#EXTINF:-1,group-title="Movies",ZEE BOLLYOOD
+#EXTINF:-1,tvg-logo="https://tinyurl.com/4p482cd9"group-title="Movies",ZEE BOLLYOOD
 https://drk6xq0vhn.gpcdn.net/live/zee_bollywood_abr/index.m3u8
-#EXTINF:-1,group-title="Movies",ZEE ACTION
+#EXTINF:-1,tvg-logo="https://shorturl.at/mfJfl"group-title="Movies",ZEE ACTION
 https://drk6xq0vhn.gpcdn.net/live/zee_action_abr/index.m3u8
-#EXTINF:-1,group-title="Movies",ZEE Anmol Cinema   
+#EXTINF:-1,tvg-logo="https://shorturl.at/jYUSn"group-title="Movies",ZEE Anmol Cinema   
 http://filex.me:8080/live/omer123/002773/911227.m3u8
 #EXTINF:-1,group-title="Movies",ZEE Anmol Cinema 2
 http://filex.me:8080/live/omer123/002773/911229.m3u8
@@ -312,13 +312,13 @@ http://dino4k.shop/play/live.php?mac=00:1A:79:C4:B9:FB&stream=281385&extension=t
 
 
 
-#EXTINF:-1 ,tvg-name="BIGG BOSS"tvg-logo="https://shorturl.at/jhJYq"group-title="Hindi Entertainment"',BIGG BOSS HINDI 24X7
+#EXTINF:-1 ,tvg-name="BIGG BOSS"tvg-logo="https://shorturl.at/jhJYq"group-title="Hindi Entertainment",BIGG BOSS HINDI 24X7
 http://filex.me:8080/live/omer123/002773/2093154.m3u8
-#EXTINF:-1 ,tvg-name="BIGG BOSS"tvg-logo="https://shorturl.at/zWKEf"group-title="Hindi Entertainment"',BIGG BOSS BANGLA 24X7
+#EXTINF:-1 ,tvg-name="BIGG BOSS"tvg-logo="https://shorturl.at/zWKEf"group-title="Hindi Entertainment",BIGG BOSS BANGLA 24X7
 http://filex.me:8080/live/omer123/002773/2093170.m3u8
-#EXTINF:-1 ,group-title="Hindi Entertainment",Sony Tv 
+#EXTINF:-1 ,tvg-logo="https://shorturl.at/BsZMw"group-title="Hindi Entertainment",Sony Tv 
 https://drk6xq0vhn.gpcdn.net/live/sony_ent_hd_abr/index.m3u8
-#EXTINF:-1 ,group-title="Hindi Entertainment",Sony Tv HD
+#EXTINF:-1 ,tvg-logo="https://shorturl.at/K2sVG"group-title="Hindi Entertainment",Sony Tv HD
 http://103.185.24.134:3001/SonyEntertainmentTelevisionHD/index.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Zee Tv
 https://drk6xq0vhn.gpcdn.net/live/zee_tv_hd_abr/index.m3u8
@@ -332,7 +332,7 @@ https://d1rc86nwwc9fag.cloudfront.net/260723/rishteyuk_1800/chunks.m3u8
 http://filex.me:8080/live/omer123/002773/52.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Colors
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorsme.smil/index.m3u8
-#EXTINF:-1 ,group-title="Hindi Entertainment",Colors HD
+#EXTINF:-1 ,tvg-logo="https://shorturl.at/7dZTt"group-title="Hindi Entertainment",Colors HD
 http://filex.me:8080/live/omer123/002773/911289.m3u8
 #EXTINF:-1,group-title="Hindi Entertainment",Sony SAB 
 https://drk6xq0vhn.gpcdn.net/live/sub_hd_abr/index.m3u8
