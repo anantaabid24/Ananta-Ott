@@ -602,3 +602,153 @@ https://cc-mgr91yrk4pehy.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da6
 #EXTINF:-1,group-title="Infotainment",CNA ORGINAL
 https://amg01082-cna-amg01082c1-rlaxx-us-11304.playouts.now.amagi.tv/playlist1080p.m3u8
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#EXTINF:-1 , group-title="Kids",ANIMAX
+http://pixtv.org/live/RAY4910/zuOWzGGGPH/584498.m3u8
+#EXTINF:-1 , group-title="Kids",Discovery Kids
+https://drk6xq0vhn.gpcdn.net/live/discovery_kids_abr/index.m3u8
+#EXTINF:-1 , group-title="Kids",Sony YAY
+https://drk6xq0vhn.gpcdn.net/live/sony_yay_720/chunks.m3u8
+#EXTINF:-1 , group-title="Kids",Disney JR
+http://pixtv.org/live/RAY4910/zuOWzGGGPH/175130.m3u8
+#EXTINF:-1 , group-title="Kids",Disney Channel
+http://pixtv.org/live/RAY4910/zuOWzGGGPH/117791.m3u8
+#EXTINF:-1 , group-title="Kids",Disney International
+http://pixtv.org/live/RAY4910/zuOWzGGGPH/694181.m3u8
+#EXTINF:-1 , group-title="Kids",Cartoon Network
+https://cdn4.mjunoon.tv:8087/streamtest/87H/chunks.m3u8
+#EXTINF:-1 , group-title="Kids",Cartoon Network HD+
+https://drk6xq0vhn.gpcdn.net/live/cn_hd_abr/index.m3u8
+#EXTINF:-1 , group-title="Kids",Nick HD+
+http://pixtv.org/live/RAY4910/zuOWzGGGPH/510219.m3u8
+#EXTINF:-1 , group-title="Kids",Nick
+http://198.195.239.50:8095/nick/tracks-v1a1/mono.m3u8
+#EXTINF:-1 , group-title="Kids",Nick Bangla
+http://filex.me/live/omer123/002773/519972.m3u8
+#EXTINF:-1, group-title="Kids",Nickelodeon
+http://filex.me/live/omer123/002773/499707.m3u8
+#EXTINF:-1, group-title="Kids",Nick JR
+http://filex.me/live/omer123/002773/497348.m3u8
+#EXTINF:-1, group-title="Kids",pogo
+https://drk6xq0vhn.gpcdn.net/live/pogo_sd_abr/index.m3u8
+#EXTINF:-1, group-title="Kids",Sonic
+http://198.195.239.50:8095/sonic/tracks-v1a1/mono.m3u8
+#EXTINF:-1, group-title="Kids",Sonic Bangla
+http://filex.me/live/omer123/002773/519973.m3u8
+#EXTINF:-1, group-title="Kids",EPIC KIDS
+https://shorturl.at/N5cxO
+#EXTINF:-1,group-title="Hindi Entertainment",ETV BAL BHARAT
+http://198.195.239.50:8095/ETV.BAL.BHARAT/index.m3u8
+#EXTINF:-1, group-title="Kids",Hungama 
+http://198.195.239.50:8095/HUNGAMA/index.m3u8
+#EXTINF:-1, group-title="Kids",Hungama Super
+http://198.195.239.50:8095/SUPER.HUNGAMA/index.m3u8
+#EXTINF:-1, group-title="Kids",Minimax
+https://s2.ideationtec.live/MiniMax/MiniMax.m3u8
+#EXTINF:-1, group-title="Kids",Zoo Moo
+https://zoomoo-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1, group-title="Kids",Rongeen Tv
+https://server.thelegitpro.in/rongeentv/rongeentv/tracks-v1a1/mono.m3u8
+#EXTINF:-1, group-title="Kids", Unique Tv
+https://mumt05.tangotv.in/87NeALx2UNIQUETV/tracks-v1a1/mono.m3u8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#EXTINF:-1 ,group-title="News",Al Jazeera
+https://live-hls-web-aje-gcp.thehlive.com/AJE/01.m3u8
+#EXTINF:-1 ,group-title="News",BBC NEWS
+https://cdnm.dhakastream.com:8880/tvbd/tvbdSamiul/95.m3u8
+#EXTINF:-1 ,group-title="News",CNN
+https://amg01448-samsungin-cnnnow-samsungin-4npqg.amagi.tv/playlist/amg01448-samsungin-cnnnow-samsungin/playlist.m3u8
+#EXTINF:-1,group-title="News",AAJ News
+https://ml-pull-dvc-myco.io:2096/AAJ_NEWS/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1,group-title="News",Sky News
+https://linear901-oo-hls0-prd-gtm.delivery.skycdp.com/v1/master/6404a5d732e04991ed59ac7790b61cc065c9aabd/prod-gb-lin-skynews-hls-25-web/stream07/streamPlaylist.m3u8
+#EXTINF:-1,group-title="News",CNA
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
+#EXTINF:-1,group-title="News",DW News
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream05/streamPlaylist.m3u8
+#EXTINF:-1,group-title="News",TRT World
+https://tv-trtworld.medya.trt.com.tr/master_1080.m3u8
+#EXTINF:-1,group-title="News",RT NOW
+https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
+#EXTINF:-1,group-title="News",WION NEWS
+https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
+#EXTINF:-1,group-title="News",France 24 English
+https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_2300.m3u8
+#EXTINF:-1,group-title="News",Global News
+https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/master.m3u8
+#EXTINF:-1,group-title="News",NDTV Hindi
+https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8
+#EXTINF:-1,group-title="News",India Today
+https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8
+#EXTINF:-1,group-title="News",CGTN
+https://english-livebkali.cgtn.com/live/encgtn_1.m3u8
+#EXTINF:-1,group-title="News",Press Tv 
+https://live.presstv.ir/hls/presstv_4_482/index.m3u8
+#EXTINF:-1,group-title="News",NeoNews
+https://cdn22lhr.tamashaweb.com:8087/jazzauth/NeoNews-abr/live/vsat-110M/chunks.m3u8
+#EXTINF:-1,group-title="News",Bol News
+https://cdn23lhr.tamashaweb.com:8087/jazzauth/BolNews-abr/live/vsat-145H/chunks.m3u8
+#EXTINF:-1,group-title="News",News 18 Bangla Entertainment
+https://n18syndication.akamaized.net/bpk-tv/News18_Bangla Entertainment_NW18_MOB/output01/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1,group-title="News", Kalkata TV
+https://cdn.ottlive.co.in/kolkatatv/tracks-v1a1/mono.m3u8
+#EXTINF:-1,group-title="News", ABP NEWS BANGLA
+https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/ananda-livetv/master_1280.m3u8
+#EXTINF:-1,group-title="News", TV9 BANGLA
+https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9banaen8yq/liveabr/pub-iotv9banaen8yq/live_720p/chunks.m3u8
+#EXTINF:-1,group-title="News", ABP NEWS
+https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-472500/abpnews/master_720p.m3u8
+
+
+
+
+
+
