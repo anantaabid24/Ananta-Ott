@@ -582,7 +582,7 @@ http://38.252.213.209:8000/play/a008
 #EXTINF:-1,group-title="Infotainment", BBC LIFE STYLE 
 http://falcon-sa.xyz/live/9951535481/7076609071/749378.m3u8
 #EXTINF:-1,group-title="Infotainment",ZEE ZEST HD
-http://filex.me/live/omer123/002773/1345166.m3u8
+http://filex.me:8080/live/03098001921RDB/03098001921RDB/1345166.m3u8
 #EXTINF:-1,group-title="Infotainment",Hum Masala
 https://drk6xq0vhn.gpcdn.net/live/hum_masala_abr/index.m3u8
 #EXTINF:-1,group-title="Infotainment",Food Food
