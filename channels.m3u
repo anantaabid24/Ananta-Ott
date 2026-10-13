@@ -26,11 +26,11 @@ http://103.185.24.134:3001/SONY-SPORTS3/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Sony Ten 3 HD
 http://filex.me:8080/live/omer123/002773/52086.m3u8
 #EXTINF:-1 ,group-title="Sports"",Sony Ten 4
-http://198.195.239.50:8095/SONY.SPORTS.4/index.m3u8
+http://filex.me:8080/live/omer123/002773/957590.m3u8
 #EXTINF:-1 ,group-title="Sports"",Sony Ten 5 HD
 http://103.185.24.134:3001/SONY-SPORTS.5HD/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Unite8 Sports HD 1
-http://198.195.239.50:8095/UNITE8.1.HD/index.m3u8
+http://filex.me:8080/live/omer123/002773/1369004.m3u8
 #EXTINF:-1 ,group-title="Sports"",Unite8 Sports HD 2
 http://www.albshipe.com/live/F917341/23LUD11/808789.m3u8
 #EXTINF:-1,group-title="Sports"",Ten Cricket HD
@@ -124,17 +124,17 @@ http://103.185.24.134:3001/Star-Movies/index.m3u8
 #EXTINF:-1,group-title="Movies",STAR Movies Select HD
 http://103.185.24.134:3001/STAR-MOVIES-SEL-HD/index.m3u8
 #EXTINF:-1,group-title="Movies",Romedy Now
-http://198.195.239.50:8095/ROMEDY.NOW/index.m3u8
+http://103.185.24.134:3001/ROMEDY-NOW/index.m3u8
 #EXTINF:-1,group-title="Movies",Sony PIX HD
-http://198.195.239.50:8095/SONY.PIX.HD/index.m3u8
+http://103.185.24.134:3001/SONY-PIX-HD/index.m3u8
 #EXTINF:-1,group-title="Movies",MNX HD
-http://198.195.239.50:8095/MNX.HD/index.m3u8
+http://103.185.24.134:3001/MN-PLUS-HD/index.m3u8
 #EXTINF:-1,group-title="Movies",Movies Now HD
-http://198.195.239.50:8095/MOVIES.NOW.HD/index.m3u8
+http://103.185.24.134:3001/MOVIES-NOW-HD/index.m3u8
 #EXTINF:-1,group-title="Movies",MN+ HD
-http://198.195.239.50:8095/MN.PLUS.HD/index.m3u8
+http://103.185.24.134:3001/MN-PLUS-HD/index.m3u8
 #EXTINF:-1,group-title="Movies",AXN
-http://198.195.239.50:8095/AXN.HD/tracks-v1a1/mono.m3u8
+http://103.185.24.134:3001/AXN-HD/index.m3u8
 #EXTINF:-1,group-title="Movies",Rock Action
 http://filex.me:8080/live/omer123/002773/302298.m3u8
 #EXTINF:-1,group-title="Movies",Rock Entertainment
@@ -144,11 +144,11 @@ http://filex.me:8080/live/omer123/002773/302309.m3u8
 #EXTINF:-1,group-title="Movies", HBO
 http://livetv.akr4m.com:8080/bdtv/restrem/47.m3u8
 #EXTINF:-1,group-title="Movies",Lotus Macua
-http://198.195.239.50:8095/Lotus.TV.HD/index.m3u8
+http://103.185.24.134:3001/Lotus-TV-HD/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Colors Cineplex
 http://filex.me:8080/live/omer123/002773/276656.m3u8
 #EXTINF:-1 ,group-title="Movies",Colors Cineplex HD
-http://198.195.239.50:8095/COLORS.CINEPLEX.HD/index.m3u8
+http://103.185.24.134:3001/COLORS-CINEPLEX-HD/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Colors Cineplex Superhits
 https://box.bbaria.net:8083/COLOR_CINEPLEX/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Colors Cineplex Bollywood
@@ -158,15 +158,15 @@ http://filex.me:8080/live/omer123/002773/911321.m3u8
 #EXTINF:-1 ,group-title="Movies",And Pictures 
 https://drk6xq0vhn.gpcdn.net/live/and_picture_hd_abr/index.m3u8
 #EXTINF:-1 ,group-title="Movies",And Pictures HD
-http://198.195.239.50:8095/ANT.PICTURS.HD/index.m3u8
+http://103.185.24.134:3001/PicturesHD/index.m3u8
 #EXTINF:-1,group-title="Movies",AND XPLOR HD
-http://198.195.239.50:8095/XPLOR.HD/index.m3u8
+http://103.185.24.134:3001/XPLOR-HD/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Star Gold Select
 http://103.185.24.134:3001/STAR-GOLD-SEL-HD/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Star Gold Select HD
 http://filex.me:8080/live/omer123/002773/275051.m3u8
 #EXTINF:-1,group-title="Movies",Star Gold HD
-http://198.195.239.50:8095/STAR.GOLD.HD/index.m3u8
+http://103.185.24.134:3001/Star-Gold/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Star Gold 2
 http://filex.me:8080/live/omer123/002773/31.m3u8
 #EXTINF:-1 ,group-title="Movies",Star Gold 2 HD
@@ -182,7 +182,7 @@ http://filex.me:8080/live/omer123/002773/911263.m3u8
 #EXTINF:-1 ,group-title="Movies",Sony Max
 http://filex.me:8080/live/omer123/002773/276652.m3u8
 #EXTINF:-1 ,group-title="Movies",Sony Max HD
-http://198.195.239.50:8095/SONY.MAX.HD/index.m3u8
+http://103.185.24.134:3001/SonyMAX/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Sony MAX 1
 http://live.balajibroadband.com:3500/live/3418.m3u8
 #EXTINF:-1 ,group-title="Movies",Sony Max 2
@@ -230,11 +230,11 @@ http://filex.me:8080/live/omer123/002773/911237.m3u8
 #EXTINF:-1 ,group-title="Movies",Jalsha Movies 
 https://box.bbaria.net:8083/Jalsha_Movie/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Jalsha Movies HD
-http://livetv.akr4m.com:8080/bdtv/restrem/27.m3u8
+http://103.185.24.134:3001/JALSHA-MOVIES-HD/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Zee Bangla Sonar
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/master2.m3u8
 #EXTINF:-1 ,group-title="Movies",Colors Bangla Cinema
-http://198.195.239.50:8095/colorsBanglaChinema/index.m3u8
+http://103.185.24.134:3001/COLORS-BANGLA-CINEMA/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Mix Hollywood
 https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Filmax
@@ -387,7 +387,7 @@ http://trxx.in:80/play/live.php?mac=00:1A:79:D2:3D:EE&stream=225740&extension=ts
 #EXTINF:-1 ,group-title="Hindi Entertainment",Colors Bangla HD
 http://198.195.239.50:8095/colorsBangla/index.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Sun Bangla  HD
-http://198.195.239.50:8095/SUN.BANGLA.HD/index.m3u8
+http://103.185.24.134:3001/SUN-BANGLA-HD/index.m3u8
 
 
 
