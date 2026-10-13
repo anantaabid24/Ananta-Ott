@@ -142,7 +142,7 @@ http://filex.me:8080/live/omer123/002773/302299.m3u8
 #EXTINF:-1,group-title="Movies",Thrills
 http://filex.me:8080/live/omer123/002773/302309.m3u8
 #EXTINF:-1,group-title="Movies", HBO
-http://livetv.akr4m.com:8080/bdtv/restrem/47.m3u8
+http://filex.me:8080/live/omer123/002773/302248.m3u8
 #EXTINF:-1,group-title="Movies",Lotus Macua
 http://103.185.24.134:3001/Lotus-TV-HD/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Colors Cineplex
