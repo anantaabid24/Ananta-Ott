@@ -412,7 +412,7 @@ https://live1.ssmmcdn.cloud/GREENENTFHD/tracks-v1a1/mono.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",Geo HD
 https://cdn01.medialive.one:2096/GEOENTFHD/tracks-v1a1/mono.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",Geo Kahani
-http://filex.me:8080live/omer123/002773/110052.m3u8
+http://filex.me:8080//omer123/002773/110052.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",ARY Digital HD
 https://cdn4.mjunoon.tv:8087/streamtest/84H/chunks.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",ARY Zindegi
@@ -543,7 +543,7 @@ https://drk6xq0vhn.gpcdn.net/live/desh_tv_abr/index.m3u8
 http://139.23.241.38:8088/212/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="191" tvg-name="Star News" tvg-logo="https://shorturl.at/6dtoR" group-title="Bangla Entertainment",Star News
-http://filex.me:8080live/omer123/002773/1369527.m3u8
+http://filex.me:8080//omer123/002773/1369527.m3u8
 
 #EXTINF:-1 ,tvg-name="MY TV"tvg-logo="https://shorturl.at/o2eLN" group-title="Bangla Entertainment",MY TV
 http://116.204.149.16/mytv/index.m3u8
@@ -708,9 +708,9 @@ https://livecdn.live247stream.com/joomusic/tv/joomusic/stream/chunks.m3u8
 #EXTINF:-1, group-title="Music",MTV
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:mtvindia.smil/playlist.m3u8
 #EXTINF:-1, group-title="Music",MTV HD
-http://filex.me:8080live/omer123/002773/246680.m3u8
+http://filex.me:8080/live/omer123/002773/246680.m3u8
 #EXTINF:-1, group-title="Music",ARY MUSIK
-http://filex.me:8080live/omer123/002773/246686.m3u8
+http://filex.me:8080//omer123/002773/246686.m3u8
 #EXTINF:-1, group-title="Music",Music India
 http://198.195.239.50:8095/MUSIC.INDIA/index.m3u8
 #EXTINF:-1, group-title="Music",9x Tashan
@@ -774,17 +774,17 @@ http://pixtv.org/live/RAY4910/zuOWzGGGPH/510219.m3u8
 #EXTINF:-1 , group-title="Kids",Nick
 http://198.195.239.50:8095/nick/tracks-v1a1/mono.m3u8
 #EXTINF:-1 , group-title="Kids",Nick Bangla
-http://filex.me:8080live/omer123/002773/519972.m3u8
+http://filex.me:8080//omer123/002773/519972.m3u8
 #EXTINF:-1, group-title="Kids",Nickelodeon
-http://filex.me:8080live/omer123/002773/499707.m3u8
+http://filex.me:8080//omer123/002773/499707.m3u8
 #EXTINF:-1, group-title="Kids",Nick JR
-http://filex.me:8080live/omer123/002773/497348.m3u8
+http://filex.me:8080//omer123/002773/497348.m3u8
 #EXTINF:-1, group-title="Kids",pogo
 https://drk6xq0vhn.gpcdn.net/live/pogo_sd_abr/index.m3u8
 #EXTINF:-1, group-title="Kids",Sonic
 http://198.195.239.50:8095/sonic/tracks-v1a1/mono.m3u8
 #EXTINF:-1, group-title="Kids",Sonic Bangla
-http://filex.me:8080live/omer123/002773/519973.m3u8
+http://filex.me:8080//omer123/002773/519973.m3u8
 #EXTINF:-1, group-title="Kids",EPIC KIDS
 https://shorturl.at/N5cxO
 #EXTINF:-1,group-title="Hindi Entertainment",ETV BAL BHARAT
