@@ -171,7 +171,7 @@ http://103.185.24.134:3001/Star-Gold/index.m3u8
 http://filex.me:8080/live/omer123/002773/31.m3u8
 #EXTINF:-1 ,group-title="Movies",Star Gold 2 HD
 http://103.151.60.162:2122/play/a01v/index.m3u8
-#EXTINF:-1 ,group-title="Movies",Star Gold Romace
+#EXTINF:-1 ,group-title="Movies",Star Gold Romance
 http://filex.me:8080/live/omer123/002773/911308.m3u8
 #EXTINF:-1 ,group-title="Movies",Star Gold Thrills
 http://filex.me:8080/live/omer123/002773/275052.m3u8
@@ -195,7 +195,7 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/NGCHD/default/NGCHD.m3u8
 http://103.185.24.134:3001/ZeeCinemaHD/tracks-v1a1/mono.m3u8
 #EXTINF:-1,group-title="Movies",Zee Cinema HD APAC
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:zeecinemaapachd.smil/index.m3u8
-#EXTINF:-1,tvg-logo="https://tinyurl.com/4p482cd9"group-title="Movies",ZEE BOLLYOOD
+#EXTINF:-1,tvg-logo="https://tinyurl.com/4p482cd9"group-title="Movies",ZEE BOLLYWOOD
 https://drk6xq0vhn.gpcdn.net/live/zee_bollywood_abr/index.m3u8
 #EXTINF:-1,tvg-logo="https://shorturl.at/mfJfl"group-title="Movies",ZEE ACTION
 https://drk6xq0vhn.gpcdn.net/live/zee_action_abr/index.m3u8
