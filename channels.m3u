@@ -610,6 +610,55 @@ https://amg01082-cna-amg01082c1-rlaxx-us-11304.playouts.now.amagi.tv/playlist108
 
 
 
+#EXTINF:-1 , group-title="Music",Sangeet Bangla 
+http://198.195.239.50:8095/sangeetBangla/index.m3u8
+#EXTINF:-1 , group-title="Music",Dhoom Music Bangla
+https://cdn.pishow.tv/ott/live/1456/master.m3u8
+#EXTINF:-1,  group-title="Music",B4U MUSIC
+http://filex.me/live/omer123/002773/911224.m3u8
+#EXTINF:-1,  group-title="Music",B4U MUSIC APAC
+https://drk6xq0vhn.gpcdn.net/live/b4u_music_abr/index.m3u8
+#EXTINF:-1, group-title="Music",9XM
+https://wiselp.wiseplayout.com/9XM/HD1080/HD1080.m3u8
+#EXTINF:-1, group-title="Music",Joo Music
+https://livecdn.live247stream.com/joomusic/tv/joomusic/stream/chunks.m3u8
+#EXTINF:-1, group-title="Music",MTV
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:mtvindia.smil/playlist.m3u8
+#EXTINF:-1, group-title="Music",MTV HD
+http://filex.me/live/omer123/002773/246680.m3u8
+#EXTINF:-1, group-title="Music",ARY MUSIK
+http://filex.me/live/omer123/002773/246686.m3u8
+#EXTINF:-1, group-title="Music",Music India
+http://198.195.239.50:8095/MUSIC.INDIA/index.m3u8
+#EXTINF:-1, group-title="Music",9x Tashan
+https://wiselp.wiseplayout.com/9X_Tashan/HD1080/HD1080.m3u8
+#EXTINF:-1, group-title="Music",9x Jhakaas
+https://wiselp.wiseplayout.com/9X_Jhakaas/HD1080/HD1080.m3u8
+#EXTINF:-1, group-title="Music", oxygen Music
+https://oxygenmusic.hu:2443/hls/oxygenmusic.m3u8
+#EXTINF:-1, group-title="Music",XITE
+https://xite-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1, group-title="Music",8XM
+https://cdn4.mjunoon.tv:8087/streamtest/131H/chunks.m3u8
+#EXTINF:-1, group-title="Music",Zoom
+https://mumbai-edge.smartplaytv.in/Zoom/tracks-v1a1/mono.m3u8
+#EXTINF:-1, group-title="Music", Zing
+https://drk6xq0vhn.gpcdn.net/live/zing_sd_abr/index.m3u8
+#EXTINF:-1, group-title="Music",Hindi Hits
+http://146.59.253.52:8080/hindihitshd/index.m3u8
+#EXTINF:-1, group-title="Music",Epic Music
+https://cc-3cyxq80qusspd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3cyxq80qusspd/playlist.m3u8
+http://103.175.73.12:8080/live/469/469_0.m3u8
+#EXTINF:-1, group-title="Music",Deewana HD
+https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1, group-title="Music",Jalwa Pakistan
+https://cdn4.mjunoon.tv:8087/streamtest/135H/chunks.m3u8
+#EXTINF:-1,group-title="Music",YRF MUSIC
+https://cdnm.dhakastream.com:8880/tvbd/tvbdSamiul/245.m3u8
+#EXTINF:-1,group-title="Music",E24
+https://amg13643-amg13643c2-amgplt0016.playout.now3.amagi.tv/playlist/amg13643-amg13643c2-amgplt0016/playlist.m3u8
+
+
 
 
 
