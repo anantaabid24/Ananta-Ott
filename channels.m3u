@@ -694,11 +694,11 @@ https://amg01082-cna-amg01082c1-rlaxx-us-11304.playouts.now.amagi.tv/playlist108
 
 
 #EXTINF:-1 , group-title="Music",Sangeet Bangla 
-http://198.195.239.50:8095/sangeetBangla/index.m3u8
+https://mumt05.tangotv.in/87NeALx2SANGEETBANGLA/index.m3u8
 #EXTINF:-1 , group-title="Music",Dhoom Music Bangla
 https://cdn.pishow.tv/ott/live/1456/master.m3u8
 #EXTINF:-1,  group-title="Music",B4U MUSIC
-http://filex.me:8080/live/omer123/002773/246678.m3u8
+https://streams.tangotv.in/B4UMUSIC/ORIGIN/index.m3u8
 #EXTINF:-1,  group-title="Music",B4U MUSIC APAC
 https://drk6xq0vhn.gpcdn.net/live/b4u_music_abr/index.m3u8
 #EXTINF:-1, group-title="Music",9XM
@@ -712,7 +712,7 @@ http://filex.me:8080/live/omer123/002773/246680.m3u8
 #EXTINF:-1, group-title="Music",ARY MUSIK
 http://filex.me:8080//omer123/002773/246686.m3u8
 #EXTINF:-1, group-title="Music",Music India
-http://198.195.239.50:8095/MUSIC.INDIA/index.m3u8
+https://streams.tangotv.in/MUSICINDIA/ORIGIN/index.m3u8#skym3u.dev
 #EXTINF:-1, group-title="Music",9x Tashan
 https://wiselp.wiseplayout.com/9X_Tashan/HD1080/HD1080.m3u8
 #EXTINF:-1, group-title="Music",9x Jhakaas
