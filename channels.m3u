@@ -401,6 +401,89 @@ http://103.185.24.134:3001/SUN-BANGLA-HD/index.m3u8
 
 
 
+#EXTINF:-1,group-title="Urdu Entertainment",Hum EUROPE HD
+https://stream.ottplus.live/live/hum_tv_abr/index.m3u8
+#EXTINF:-1,group-title="Urdu Entertainment",Hum HD
+https://cdn4.mjunoon.tv:8087/streamtest/82H/chunks.m3u8
+#EXTINF:-1,group-title="Urdu Entertainment",Hum Sitaray
+https://media.hmair.xyz/api/play/HUM%20Sitaray.m3u8
+#EXTINF:-1,group-title="Urdu Entertainment",Green HD
+https://live1.ssmmcdn.cloud/GREENENTFHD/tracks-v1a1/mono.m3u8
+#EXTINF:-1,group-title="Urdu Entertainment",Geo HD
+https://cdn01.medialive.one:2096/GEOENTFHD/tracks-v1a1/mono.m3u8
+#EXTINF:-1,group-title="Urdu Entertainment",Geo Kahani
+http://filex.me/live/omer123/002773/110052.m3u8
+#EXTINF:-1,group-title="Urdu Entertainment",ARY Digital HD
+https://cdn4.mjunoon.tv:8087/streamtest/84H/chunks.m3u8
+#EXTINF:-1,group-title="Urdu Entertainment",ARY Zindegi
+https://cdn4.mjunoon.tv:8087/streamtest/85H/chunks.m3u8
+#EXTINF:-1,group-title="Urdu Entertainment",Bol HD
+https://live1.ssmmcdn.cloud:2096/BOLENTFHD/index.m3u8
+#EXTINF:-1, group-title="Urdu Entertainment",AAN HD
+https://s5.ideationtec.live/AAN_HD/AAN_HD.m3u8
+#EXTINF:-1,group-title="Urdu Entertainment",Express HD
+https://cdn01.medialive.one:2096/EXPENTFHD/tracks-v1a1/mono.m3u8
+#EXTINF:-1,group-title="Urdu Entertainment",Sab TV HD
+https://s1.ideationtec.live/SAB_Entertainment/SAB_Entertainment.m3u8
+#EXTINF:-1,group-title="Urdu Entertainment",Set Entertainment
+https://s1.ideationtec.live/SET_Ent/SET_Ent.m3u8
+#EXTINF:-1,group-title="Urdu Entertainment",A1TV
+https://cdn22lhr.tamashaweb.com:8087/jazzauth/A1TV-abr/live/vsat-124H/chunks.m3u8
+#EXTINF:-1,group-title="Urdu Entertainment",A Plus
+https://cdn4.mjunoon.tv:8087/streamtest/118H/chunks.m3u8
+#EXTINF:-1,group-title="Urdu Entertainment",Aaj Entertainment 
+https://cdn01.medialive.one:2096/AAJENTFHD/tracks-v1a1/mono.m3u8
+#EXTINF:-1,group-title="Urdu Entertainment",Play
+https://cdn4.mjunoon.tv:8087/streamtest/105H/chunks.m3u8
+#EXTINF:-1,group-title="Urdu Entertainment",LTN Family
+https://s3.ideationtec.live/LTN_Family_HD/LTN_Family_HD.m3u8
+#EXTINF:-1,group-title="Urdu Entertainment",See TV
+https://vodzong.mjunoon.tv:8087/streamtest/SeeTV-156/live/156M/chunks.m3u8
+#EXTINF:-1,group-title="Urdu Entertainment",Mix One
+https://ml-pull-hwc.myco.io/MixONE/hls/index.m3u8
+#EXTINF:-1,group-title="Urdu Entertainment",Mix Bel Araby
+https://ml-pull-hwc.myco.io/MixBelAraby/hls/index.m3u8
+#EXTINF:-1,group-title="Urdu Entertainment",Aur Life HD
+https://s3.ideationtec.live/Aur_Life/Aur_Life.m3u8
+#EXTINF:-1, group-title="Urdu Entertainment",MBC 1
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1/15cf99af5de54063fdabfefe66adc075/index.m3u8
+#EXTINF:-1, group-title="Urdu Entertainment",MBC 4
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-4/24f134f1cd63db9346439e96b86ca6ed/index.m3u8
+#EXTINF:-1,group-title="Urdu Entertainment", MBC Persia
+https://hls.mbcpersia.live/hls/stream.m3u8
+#EXTINF:-1,group-title="Urdu Entertainment",Persiana Iranian
+https://irhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1,group-title="Urdu Entertainment",Persiana Family 
+https://familyhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1,group-title="Urdu Entertainment",Persiana Turkiye
+https://turkhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1,group-title="Urdu Entertainment",Persiana Plus
+https://euhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1,group-title="Urdu Entertainment",TRT 1
+https://tv-trt1.medya.trt.com.tr/master_1440.m3u8
+#EXTINF:-1,group-title="Urdu Entertainment",TRT 2
+https://tv-trt2.medya.trt.com.tr/master_1440.m3u8
+#EXTINF:-1,group-title="Urdu Entertainment",A TV HD
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
+#EXTINF:-1,group-title="Urdu Entertainment",TRT Turk
+https://tv-trtturk.medya.trt.com.tr/master_1440.m3u8
+#EXTINF:-1,group-title="Urdu Entertainment",persiana 1
+https://onehls.persiana.live/hls/stream.m3u8
+#EXTINF:-1,group-title="Urdu Entertainment",Arirang Korea
+https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/Index.m3u8
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #EXTINF:-1 tvg-id="122" tvg-name="BTV" tvg-logo="https://tinyurl.com/4mkhyrpm" group-title="Bangla Entertainment",Sangsad Tv
 http://livetv.akr4m.com:8080/bdtv/restrem/32.m3u8
