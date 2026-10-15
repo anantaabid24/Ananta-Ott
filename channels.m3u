@@ -30,7 +30,7 @@ http://filex.me:8080/live/omer123/002773/52086.m3u8
 #EXTINF:-1 ,group-title="Sports"",Sony Ten 4
 http://filex.me:8080/live/omer123/002773/957590.m3u8
 #EXTINF:-1 ,group-title="Sports"",Sony Ten 5 HD
-http://103.185.24.134:3001/SONY-SPORTS.5HD/index.m3u8
+http://103.151.60.162:2122/play/a028/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Unite8 Sports HD 1
 http://filex.me:8080/live/omer123/002773/1369004.m3u8
 #EXTINF:-1 ,group-title="Sports"",Unite8 Sports HD 2
@@ -46,7 +46,7 @@ http://103.185.24.134:3001/A-SPORTS-HD/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",GEO SUPER HD
 http://filex.me:8080/live/omer123/002773/52080.m3u8
 #EXTINF:-1 ,group-title="Sports"",Ptv Sports HD
-http://103.185.24.134:3001/ptv/index.m3u8
+http://103.151.60.162:2122/play/a0f9/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Fast Sports
 http://198.195.239.50:8095/FAST.SPORTS.HD/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",ASTRO PREMIER 2 HD
@@ -126,15 +126,15 @@ http://pixtv.org/live/RAY4910/zuOWzGGGPH/975100.m3u8
 #EXTINF:-1 ,group-title="Movies",Star Movies HD
 http://103.185.24.134:3001/Star-Movies/index.m3u8
 #EXTINF:-1,group-title="Movies",STAR Movies Select HD
-http://103.185.24.134:3001/STAR-MOVIES-SEL-HD/index.m3u8
+http://103.151.60.162:2122/play/a02l/index.m3u8
 #EXTINF:-1,group-title="Movies",Romedy Now
 http://103.185.24.134:3001/ROMEDY-NOW/index.m3u8
 #EXTINF:-1,group-title="Movies",Sony PIX HD
-http://filex.me:8080/live/omer123/002773/275048.m3u8
+http://103.151.60.162:2122/play/a01d/index.m3u8
 #EXTINF:-1,group-title="Movies",MNX HD
 http://103.185.24.134:3001/MNX-HD/index.m3u8
 #EXTINF:-1,group-title="Movies",Movies Now HD
-http://103.185.24.134:3001/MOVIES-NOW-HD/index.m3u8
+http://103.151.60.162:2122/play/a02w/index.m3u8
 #EXTINF:-1,group-title="Movies",MN PLUS HD
 http://103.185.24.134:3001/MN-PLUS-HD/index.m3u8
 #EXTINF:-1,group-title="Movies",AXN
@@ -147,6 +147,8 @@ http://filex.me:8080/live/omer123/002773/302299.m3u8
 http://filex.me:8080/live/omer123/002773/302309.m3u8
 #EXTINF:-1,group-title="Movies", HBO
 http://filex.me:8080/live/omer123/002773/302248.m3u8
+#EXTINF:-1,group-title="Movies", HBO SIGNATURE
+http://103.151.60.162:2122/play/a02g/index.m3u8
 #EXTINF:-1,group-title="Movies",Lotus Macua
 http://103.185.24.134:3001/Lotus-TV-HD/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Colors Cineplex
@@ -158,7 +160,7 @@ https://box.bbaria.net:8083/COLOR_CINEPLEX/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Colors Cineplex Bollywood
 http://live.balajibroadband.com:3500/live/1763.m3u8
 #EXTINF:-1 ,group-title="Movies",Colors Infinity HD
-http://filex.me:8080/live/omer123/002773/911321.m3u8
+http://103.151.60.162:2122/play/a02r/index.m3u8
 #EXTINF:-1 ,group-title="Movies",And Pictures 
 https://drk6xq0vhn.gpcdn.net/live/and_picture_hd_abr/index.m3u8
 #EXTINF:-1 ,group-title="Movies",And Pictures HD
@@ -172,7 +174,7 @@ http://filex.me:8080/live/omer123/002773/275051.m3u8
 #EXTINF:-1,group-title="Movies",Star Gold
 http://139.23.241.38:8088/402/tracks-v1a1/mono.m3u8
 #EXTINF:-1,group-title="Movies",Star Gold HD
-http://103.185.24.134:3001/Star-Gold/index.m3u8
+http://103.151.60.162:2122/play/a01v/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Star Gold 2
 http://filex.me:8080/live/omer123/002773/31.m3u8
 #EXTINF:-1 ,group-title="Movies",Star Gold 2 HD
@@ -188,7 +190,7 @@ http://filex.me:8080/live/omer123/002773/911263.m3u8
 #EXTINF:-1 ,group-title="Movies",Sony Max
 http://filex.me:8080/live/omer123/002773/276652.m3u8
 #EXTINF:-1 ,group-title="Movies",Sony Max HD
-http://103.185.24.134:3001/SonyMAX/index.m3u8
+http://103.151.60.162:2122/play/a014/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Sony MAX 1
 http://live.balajibroadband.com:3500/live/3418.m3u8
 #EXTINF:-1 ,group-title="Movies",Sony Max 2
@@ -198,7 +200,7 @@ http://filex.me:8080/live/omer123/002773/911271.m3u8
 #EXTINF:-1,group-title="Movies",Zee Cinema
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/NGCHD/default/NGCHD.m3u8
 #EXTINF:-1,group-title="Movies",Zee Cinema HD
-http://103.185.24.134:3001/ZeeCinemaHD/tracks-v1a1/mono.m3u8
+http://103.151.60.162:2122/play/a024/index.m3u8
 #EXTINF:-1,group-title="Movies",Zee Cinema HD APAC
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:zeecinemaapachd.smil/index.m3u8
 #EXTINF:-1,tvg-logo="https://tinyurl.com/4p482cd9"group-title="Movies",ZEE BOLLYWOOD
@@ -766,11 +768,11 @@ https://drk6xq0vhn.gpcdn.net/live/discovery_kids_abr/index.m3u8
 #EXTINF:-1 , group-title="Kids",Sony YAY
 https://drk6xq0vhn.gpcdn.net/live/sony_yay_720/chunks.m3u8
 #EXTINF:-1 , group-title="Kids",Disney JR
-http://pixtv.org/live/RAY4910/zuOWzGGGPH/175130.m3u8
+http://103.151.60.162:2122/play/a016/index.m3u8
 #EXTINF:-1 , group-title="Kids",Disney Channel
 http://139.23.241.38:8088/602/tracks-v1a1/mono.m3u8
 #EXTINF:-1 , group-title="Kids",Disney International
-http://pixtv.org/live/RAY4910/zuOWzGGGPH/694181.m3u8
+http://103.151.60.162:2122/play/a018/index.m3u8
 #EXTINF:-1 , group-title="Kids",Cartoon Network
 https://cdn4.mjunoon.tv:8087/streamtest/87H/chunks.m3u8
 #EXTINF:-1 , group-title="Kids",Cartoon Network HD+
