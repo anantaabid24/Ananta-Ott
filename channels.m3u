@@ -492,7 +492,7 @@ https://homair-tv-production.up.railway.app/api/play/BTV%20News.m3u8
 http://livetv.akr4m.com:8080/bdtv/restrem/12.m3u8
 
 #EXTINF:-1 tvg-id="122" tvg-name="BTV NEWS" tvg-logo="https://tinyurl.com/4mkhyrpm" group-title="Bangla Entertainment",BTV NEWS
-http://103.14.151.101:8000/play/a11f/index.m3u8
+https://homair-tv-production.up.railway.app/api/play/BTV%20HD.m3u8
 
 #EXTINF:-1 tvg-id="318" tvg-name="Somoy tv" tvg-logo="https://tinyurl.com/mppzxk6n" group-title="Bangla Entertainment",Somoy tv
 http://139.23.241.38:8088/205/tracks-v1a1/mono.m3u8
