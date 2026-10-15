@@ -14,8 +14,7 @@ http://139.23.241.38:8088/115/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Star Sports 2 HINDI HD
 http://mino66.xyz/live/MgGZSAyfQGzCZGo/0qFiZbT2pD/1404536.ts
 #EXTINF:-1 ,group-title="Sports",Star Sports 3
-http://103.185.24.134:3001/StarSports3/index.m3u8
-#EXTINF:-1 ,group-title="Sports",Star Sports khel
+http://bosstv.click/live/18012689/77561563/74230.m3u8
 http://filex.me:8080/live/omer123/002773/957586.m3u8
 #EXTINF:-1,group-title="Sports"", STAR 4K
 http://filex.me:8080/live/omer123/002773/966306.m3u8
@@ -190,7 +189,7 @@ http://filex.me:8080/live/omer123/002773/911263.m3u8
 #EXTINF:-1 ,group-title="Movies",Sony Max
 http://filex.me:8080/live/omer123/002773/276652.m3u8
 #EXTINF:-1 ,group-title="Movies",Sony Max HD
-http://103.151.60.162:2122/play/a014/index.m3u8
+http://103.185.24.134:3001/SonyMAX/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Sony MAX 1
 http://live.balajibroadband.com:3500/live/3418.m3u8
 #EXTINF:-1 ,group-title="Movies",Sony Max 2
@@ -342,6 +341,7 @@ http://filex.me:8080/live/omer123/002773/52.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Colors
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorsme.smil/index.m3u8
 #EXTINF:-1 ,tvg-logo="https://shorturl.at/7dZTt"group-title="Hindi Entertainment",Colors HD
+http://bosstv.click/live/18012689/77561563/74781.m3u8
 http://139.23.241.38:8088/405/tracks-v1a1/mono.m3u8
 #EXTINF:-1,group-title="Hindi Entertainment",Sony SAB 
 https://drk6xq0vhn.gpcdn.net/live/sub_hd_abr/index.m3u8
