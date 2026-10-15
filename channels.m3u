@@ -485,8 +485,8 @@ https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/In
 
 
 
-#EXTINF:-1 tvg-id="122" tvg-name="BTV" tvg-logo="https://tinyurl.com/4mkhyrpm" group-title="Bangla Entertainment",Sangsad Tv
-http://livetv.akr4m.com:8080/bdtv/restrem/32.m3u8
+#EXTINF:-1 tvg-id="122" tvg-name="BTV" tvg-logo="https://tinyurl.com/4mkhyrpm" group-title="Bangla Entertainment",BTV CHATTOGRAM
+https://homair-tv-production.up.railway.app/api/play/BTV%20News.m3u8
 
 #EXTINF:-1 tvg-id="122" tvg-name="BTV" tvg-logo="https://tinyurl.com/4mkhyrpm" group-title="Bangla Entertainment",BTV
 http://livetv.akr4m.com:8080/bdtv/restrem/12.m3u8
@@ -515,7 +515,7 @@ https://box.bbaria.net:8083/Channel24/index.m3u8
 #EXTINF:-1 tvg-id="229" tvg-name="Maasranga TV" tvg-logo="https://h1.nu/1Cwih" group-title="Bangla Entertainment",Maasranga TV
 http://139.23.241.38:8088/206/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-id="93" tvg-name="ATN Bangla" tvg-logo="https://h1.nu/1wP1f" group-title="Bangla Entertainment",ATN Bangla 
+#EXTINF:-1 tvg-id="93" tvg-name="ATN Bangla" tvg-logo="https://shorturl.at/lyFY7" group-title="Bangla Entertainment",ATN Bangla 
 http://139.23.241.38:8088/202/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="93" tvg-name="ATN News" tvg-logo="https://tinyurl.com/3t53mnaj" group-title="Bangla Entertainment",ATN News
@@ -543,7 +543,7 @@ https://drk6xq0vhn.gpcdn.net/live/desh_tv_abr/index.m3u8
 http://139.23.241.38:8088/212/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="191" tvg-name="Star News" tvg-logo="https://shorturl.at/6dtoR" group-title="Bangla Entertainment",Star News
-http://filex.me:8080//omer123/002773/1369527.m3u8
+https://homair-tv-production.up.railway.app/api/play/STARNEWS.m3u8
 
 #EXTINF:-1 ,tvg-name="MY TV"tvg-logo="https://shorturl.at/o2eLN" group-title="Bangla Entertainment",MY TV
 http://116.204.149.16/mytv/index.m3u8
