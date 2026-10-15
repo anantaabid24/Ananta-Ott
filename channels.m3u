@@ -1,14 +1,16 @@
 #EXTM3U
 #EXTINF:-1 ,tvg-name="T SPORTS"group-title="Sports"',T-Sports
-http://103.185.24.134:3001/TSportsHD/index.m3u8
+http://139.23.241.38:8088/102/tracks-v1a1/mono.m3u8
 #EXTINF:-1 ,group-title="Sports"",Star Sports Select 1 HD
-http://103.185.24.134:3001/StarSportss1/index.m3u8
+http://139.23.241.38:8088/123/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Star Sports Select 2 HD
 http://103.185.24.134:3001/StarSportss2/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Star Sports 1 HD
 http://103.185.24.134:3001/StarSports1/index.m3u8
+#EXTINF:-1 ,group-title="Sports"",Star Sports 1 HINDI HD
+http://139.23.241.38:8088/110/tracks-v1a1/mono.m3u8
 #EXTINF:-1 ,group-title="Sports"",Star Sports 2 HD
-http://103.185.24.134:3001/StarSports2/index.m3u8
+http://139.23.241.38:8088/115/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Star Sports 2 HINDI HD
 http://mino66.xyz/live/MgGZSAyfQGzCZGo/0qFiZbT2pD/1404536.ts
 #EXTINF:-1 ,group-title="Sports",Star Sports 3
@@ -18,9 +20,9 @@ http://filex.me:8080/live/omer123/002773/957586.m3u8
 #EXTINF:-1,group-title="Sports"", STAR 4K
 http://filex.me:8080/live/omer123/002773/966306.m3u8
 #EXTINF:-1 ,group-title="Sports"",Sony Ten 1 HD
-http://103.185.24.134:3001/SonyTenSports1/index.m3u8
+http://139.23.241.38:8088/119/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Sony Ten 2 HD
-http://103.185.24.134:3001/SonyTenSports2/index.m3u8
+http://139.23.241.38:8088/120/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Sony Ten 3 
 http://103.185.24.134:3001/SONY-SPORTS3/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Sony Ten 3 HD
@@ -85,6 +87,8 @@ http://filex.me:8080/live/omer123/002773/53044.m3u8
 http://filex.me:8080/live/omer123/002773/956604.m3u8
 #EXTINF:-1,group-title="Sports"", SKY SPORTS Football
 http://filex.me:8080/live/omer123/002773/956612.m3u8
+#EXTINF:-1,group-title="Sports",Super Laliga
+http://139.23.241.38:8088/101/tracks-v1a1/mono.m3u8
 #EXTINF:-1,group-title="Sports"", TNT SPORTS 1 HD
 http://filex.me:8080/live/omer123/002773/529243.m3u8
 #EXTINF:-1,group-title="Sports"", TNT SPORTS 2 HD
@@ -158,13 +162,15 @@ http://filex.me:8080/live/omer123/002773/911321.m3u8
 #EXTINF:-1 ,group-title="Movies",And Pictures 
 https://drk6xq0vhn.gpcdn.net/live/and_picture_hd_abr/index.m3u8
 #EXTINF:-1 ,group-title="Movies",And Pictures HD
-http://103.185.24.134:3001/PicturesHD/index.m3u8
+http://139.23.241.38:8088/407/tracks-v1a1/mono.m3u8
 #EXTINF:-1,group-title="Movies",AND XPLOR HD
 http://103.185.24.134:3001/XPLOR-HD/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Star Gold Select
 http://103.185.24.134:3001/STAR-GOLD-SEL-HD/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Star Gold Select HD
 http://filex.me:8080/live/omer123/002773/275051.m3u8
+#EXTINF:-1,group-title="Movies",Star Gold
+http://139.23.241.38:8088/402/tracks-v1a1/mono.m3u8
 #EXTINF:-1,group-title="Movies",Star Gold HD
 http://103.185.24.134:3001/Star-Gold/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Star Gold 2
@@ -172,7 +178,7 @@ http://filex.me:8080/live/omer123/002773/31.m3u8
 #EXTINF:-1 ,group-title="Movies",Star Gold 2 HD
 http://103.151.60.162:2122/play/a01v/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Star Gold Romance
-http://filex.me:8080/live/omer123/002773/911308.m3u8
+http://139.23.241.38:8088/409/tracks-v1a1/mono.m3u8
 #EXTINF:-1 ,group-title="Movies",Star Gold Thrills
 http://filex.me:8080/live/omer123/002773/275052.m3u8
 #EXTINF:-1 , group-title="Movies",Utsav Gold HD
@@ -334,7 +340,7 @@ http://filex.me:8080/live/omer123/002773/52.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Colors
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorsme.smil/index.m3u8
 #EXTINF:-1 ,tvg-logo="https://shorturl.at/7dZTt"group-title="Hindi Entertainment",Colors HD
-http://filex.me:8080/live/omer123/002773/911289.m3u8
+http://139.23.241.38:8088/405/tracks-v1a1/mono.m3u8
 #EXTINF:-1,group-title="Hindi Entertainment",Sony SAB 
 https://drk6xq0vhn.gpcdn.net/live/sub_hd_abr/index.m3u8
 #EXTINF:-1,group-title="Hindi Entertainment",Sony SAB HD
@@ -348,7 +354,7 @@ http://filex.me:8080/live/omer123/002773/275040.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Star Plus 
 https://d1rc86nwwc9fag.cloudfront.net/260723/starplusuk_2500/chunks.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Star Plus HD
-http://103.185.24.134:3001/Star-Plus/index.m3u8
+http://139.23.241.38:8088/401/tracks-v1a1/mono.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Star Pravah HD
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starpravah.smil/index.m3u8
 #EXTINF:-1 , group-title="Hindi Entertainment",Star Utsav
@@ -384,7 +390,7 @@ https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starjalsha.smil/index.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Colors Bangla
 http://trxx.in:80/play/live.php?mac=00:1A:79:D2:3D:EE&stream=225740&extension=ts
 #EXTINF:-1 ,group-title="Hindi Entertainment",Colors Bangla HD
-http://198.195.239.50:8095/colorsBangla/index.m3u8
+http://139.23.241.38:8088/304/tracks-v1a1/mono.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Sun Bangla  HD
 http://103.185.24.134:3001/SUN-BANGLA-HD/index.m3u8
 
@@ -492,7 +498,7 @@ https://homair-tv-production.up.railway.app/api/play/BTV%20News.m3u8
 http://livetv.akr4m.com:8080/bdtv/restrem/12.m3u8
 
 #EXTINF:-1 tvg-id="122" tvg-name="BTV NEWS" tvg-logo="https://tinyurl.com/4mkhyrpm" group-title="Bangla Entertainment",BTV NEWS
-https://homair-tv-production.up.railway.app/api/play/BTV%20HD.m3u8
+http://139.23.241.38:8088/106/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="318" tvg-name="Somoy tv" tvg-logo="https://tinyurl.com/mppzxk6n" group-title="Bangla Entertainment",Somoy tv
 http://139.23.241.38:8088/205/tracks-v1a1/mono.m3u8
@@ -632,7 +638,7 @@ https://drk6xq0vhn.gpcdn.net/live/discovery_sd_abr/index.m3u8
 #EXTINF:-1,group-title="Infotainment", DISCOVERY HD WORLD
 https://drk6xq0vhn.gpcdn.net/live/discovery_hd_abr/index.m3u8
 #EXTINF:-1,group-title="Infotainment",DISCOVERY HD WORLD
-http://103.185.24.134:3001/Discovery/index.m3u8
+http://139.23.241.38:8088/801/tracks-v1a1/mono.m3u8
 #EXTINF:-1,group-title="Infotainment",Discovery Science 
 https://drk6xq0vhn.gpcdn.net/live/discovery_science_abr/index.m3u8
 #EXTINF:-1,group-title="Infotainment",Discovery Turbo
@@ -694,11 +700,11 @@ https://amg01082-cna-amg01082c1-rlaxx-us-11304.playouts.now.amagi.tv/playlist108
 
 
 #EXTINF:-1 , group-title="Music",Sangeet Bangla 
-https://mumt05.tangotv.in/87NeALx2SANGEETBANGLA/index.m3u8
+http://139.23.241.38:8088/702/tracks-v1a1/mono.m3u8
 #EXTINF:-1 , group-title="Music",Dhoom Music Bangla
 https://cdn.pishow.tv/ott/live/1456/master.m3u8
 #EXTINF:-1,  group-title="Music",B4U MUSIC
-https://streams.tangotv.in/B4UMUSIC/ORIGIN/index.m3u8
+http://139.23.241.38:8088/701/tracks-v1a1/mono.m3u8
 #EXTINF:-1,  group-title="Music",B4U MUSIC APAC
 https://drk6xq0vhn.gpcdn.net/live/b4u_music_abr/index.m3u8
 #EXTINF:-1, group-title="Music",9XM
@@ -762,7 +768,7 @@ https://drk6xq0vhn.gpcdn.net/live/sony_yay_720/chunks.m3u8
 #EXTINF:-1 , group-title="Kids",Disney JR
 http://pixtv.org/live/RAY4910/zuOWzGGGPH/175130.m3u8
 #EXTINF:-1 , group-title="Kids",Disney Channel
-http://pixtv.org/live/RAY4910/zuOWzGGGPH/117791.m3u8
+http://139.23.241.38:8088/602/tracks-v1a1/mono.m3u8
 #EXTINF:-1 , group-title="Kids",Disney International
 http://pixtv.org/live/RAY4910/zuOWzGGGPH/694181.m3u8
 #EXTINF:-1 , group-title="Kids",Cartoon Network
