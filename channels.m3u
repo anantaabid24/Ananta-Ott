@@ -283,30 +283,10 @@ https://cinehls.persiana.live/hls/stream.m3u8
 https://familyhls.avatv.live/hls/stream.m3u8
 #EXTINF:-1,group-title="Movies",Big Star Bollywood
 https://amigofx.com:1936/bigstarmovie/bigstarmovie/chunklist_w722590997.m3u8
-#EXTINF:-1,group-title="Movies",In Plus Pakistan
-https://cdn22lhr.tamashaweb.com:8087/jazzauth/Inplus-abr/live/vsat-151H/chunks.m3u8
-#EXTINF:-1,group-title="Movies",TATA PLAY ANIMIE LOCAL
-http://premiumtvs.space/live/YqXTywueEV/damp2purchase/467679.ts
-#EXTINF:-1,group-title="Movies",TATA PLAY Bollywood Premiere
-http://premiumtvs.space/live/YqXTywueEV/damp2purchase/467485.ts
-#EXTINF:-1,group-title="Movies",TATA PLAY Bollywood Masala
-http://ott1.co/live/7799/9977/108874.ts
-#EXTINF:-1,group-title="Movies",TATA PLAY ROMANCE
-http://premiumtvs.space/live/YqXTywueEV/damp2purchase/44219.ts
-#EXTINF:-1,group-title="Movies",TATA PLAY Adbhut Kahaniya
-http://ott1.co/live/7799/9977/467677.ts
-#EXTINF:-1,group-title="Movies",TATA PLAY Zindagi
-http://ott1.co/live/7799/9977/108882.ts
-#EXTINF:-1,group-title="Movies",TATA PLAY Classic Cinema
-http://ott1.co/live/7799/9977/52496.ts
-#EXTINF:-1,group-title="Movies",TATA PLAY Short TV
-http://ott1.co/live/7799/9977/52495.ts
-#EXTINF:-1,group-title="Movies",TATA PLAY VIDESHI KAHANIYA
-http://ott1.co/live/7799/9977/7725.ts
 #EXTINF:-1,group-title="Movies",Miniplex
 http://dino4k.shop/play/live.php?mac=00:1A:79:C4:B9:FB&stream=281385&extension=ts
-
-
+#EXTINF:-1,group-title="Movies",Bhojpuri Cinema
+https://cdn.pishow.tv/ott/live/1033/master.m3u8
 
 
 
@@ -382,6 +362,8 @@ https://jmp2.uk/stvp-IN8000171I
 http://filex.me:8080/live/omer123/002773/911629.m3u8
 #EXTINF:-1,group-title="Hindi Entertainment",DANGAL 2
 http://filex.me:8080/live/omer123/002773/911599.m3u8
+#EXTINF:-1,group-title="Hindi Entertainment", SHEMAROO TV
+https://cdn.pishow.tv/ott/live/230/master.m3u8
 #EXTINF:-1,group-title="Hindi Entertainment",The Q
 https://mumt05.tangotv.in/87NeALx2THEQ/index.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Zee Bangla
@@ -703,11 +685,11 @@ https://amg01082-cna-amg01082c1-rlaxx-us-11304.playouts.now.amagi.tv/playlist108
 
 
 #EXTINF:-1 , group-title="Music",Sangeet Bangla 
-http://139.23.241.38:8088/702/tracks-v1a1/mono.m3u8
+https://cdn.pishow.tv/ott/live/1143/master.m3u8
 #EXTINF:-1 , group-title="Music",Dhoom Music Bangla
 https://cdn.pishow.tv/ott/live/1456/master.m3u8
 #EXTINF:-1,  group-title="Music",B4U MUSIC
-http://139.23.241.38:8088/701/tracks-v1a1/mono.m3u8
+https://cdn.pishow.tv/ott/live/415/master.m3u8
 #EXTINF:-1,  group-title="Music",B4U MUSIC APAC
 https://drk6xq0vhn.gpcdn.net/live/b4u_music_abr/index.m3u8
 #EXTINF:-1, group-title="Music",9XM
