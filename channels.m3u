@@ -368,14 +368,16 @@ http://filex.me:8080/live/omer123/002773/21.m3u8
 http://filex.me:8080/live/omer123/002773/911247.m3u8
 #EXTINF:-1,group-title="Hindi Entertainment",HI DOST
 https://cdn.pishow.tv/ott/live/224/master.m3u8
+#EXTINF:-1,group-title="Hindi Entertainment",KOREAN TV
+https://jmp2.uk/stvp-IN3600005NF
 #EXTINF:-1,group-title="Hindi Entertainment",Epic Bharat
 https://jmp2.uk/stvp-IN1700011V7
 #EXTINF:-1,group-title="Hindi Entertainment",Epic Tv
-https://shorturl.at/IMoDX
+https://jmp2.uk/stvp-IN17000109O
 #EXTINF:-1,group-title="Hindi Entertainment",Epic Bhojpuri Tv
-https://shorturl.at/PzqCk
+https://jmp2.uk/stvp-IN800020ZZ
 #EXTINF:-1,group-title="Hindi Entertainment",Epic Crimes
-https://shorturl.at/07zyj
+https://jmp2.uk/stvp-IN8000171I
 #EXTINF:-1,group-title="Hindi Entertainment",DANGAL 
 http://filex.me:8080/live/omer123/002773/911629.m3u8
 #EXTINF:-1,group-title="Hindi Entertainment",DANGAL 2
@@ -737,7 +739,7 @@ https://drk6xq0vhn.gpcdn.net/live/zing_sd_abr/index.m3u8
 #EXTINF:-1, group-title="Music",Hindi Hits
 http://146.59.253.52:8080/hindihitshd/index.m3u8
 #EXTINF:-1, group-title="Music",Epic Music
-https://cc-3cyxq80qusspd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3cyxq80qusspd/playlist.m3u8
+https://jmp2.uk/stvp-IN8000196E
 http://103.175.73.12:8080/live/469/469_0.m3u8
 #EXTINF:-1, group-title="Music",Deewana HD
 https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8
@@ -793,7 +795,7 @@ http://198.195.239.50:8095/sonic/tracks-v1a1/mono.m3u8
 #EXTINF:-1, group-title="Kids",Sonic Bangla
 http://filex.me:8080//omer123/002773/519973.m3u8
 #EXTINF:-1, group-title="Kids",EPIC KIDS
-https://shorturl.at/N5cxO
+https://jmp2.uk/stvp-IN800021X7
 #EXTINF:-1,group-title="Hindi Entertainment",ETV BAL BHARAT
 http://198.195.239.50:8095/ETV.BAL.BHARAT/index.m3u8
 #EXTINF:-1, group-title="Kids",Hungama 
