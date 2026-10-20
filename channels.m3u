@@ -2,11 +2,11 @@
 #EXTINF:-1 ,tvg-name="T SPORTS"group-title="Sports"',T-Sports
 http://139.23.241.38:8088/102/tracks-v1a1/mono.m3u8
 #EXTINF:-1 ,group-title="Sports"",Star Sports Select 1 HD
-http://139.23.241.38:8088/123/index.m3u8
+https://flussonic.defineatoz.com/starsportsselect1/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Star Sports Select 2 HD
-http://103.185.24.134:3001/StarSportss2/index.m3u8
+https://flussonic.defineatoz.com/starsportsselect2sw/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Star Sports 1 HD
-http://103.185.24.134:3001/StarSports1/index.m3u8
+https://flussonic.defineatoz.com/Starsports1/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Star Sports 1 HINDI HD
 http://139.23.241.38:8088/110/tracks-v1a1/mono.m3u8
 #EXTINF:-1 ,group-title="Sports"",Star Sports 2 HD
@@ -122,7 +122,7 @@ http://pixtv.org/live/RAY4910/zuOWzGGGPH/975100.m3u8
 
 
 #EXTINF:-1 ,group-title="Movies",Star Movies HD
-http://103.185.24.134:3001/Star-Movies/index.m3u8
+http://103.135.253.32:8080/STAR-MOVIES/index.m3u8
 #EXTINF:-1,group-title="Movies",STAR Movies Select HD
 http://103.151.60.162:2122/play/a02l/index.m3u8
 #EXTINF:-1,group-title="Movies",Romedy Now
@@ -133,9 +133,9 @@ http://103.151.60.162:2122/play/a01d/index.m3u8
 #EXTINF:-1,group-title="Movies",MNX HD
 http://103.185.24.134:3001/MNX-HD/index.m3u8
 #EXTINF:-1,group-title="Movies",Movies Now HD
-http://103.185.24.134:3001/MOVIES-NOW-HD/index.m3u8
+http://103.135.253.32:8080/MOVIES-NOW/index.m3u8
 #EXTINF:-1,group-title="Movies",MN PLUS HD
-http://103.185.24.134:3001/MN-PLUS-HD/index.m3u8
+http://103.135.253.32:8080/MN-PLUS/index.m3u8
 #EXTINF:-1,group-title="Movies",AXN
 http://103.185.24.134:3001/AXN-HD/index.m3u8
 #EXTINF:-1,group-title="Movies",Rock Action
@@ -173,7 +173,7 @@ http://filex.me:8080/live/omer123/002773/275051.m3u8
 #EXTINF:-1,group-title="Movies",Star Gold
 http://139.23.241.38:8088/402/index.m3u8
 #EXTINF:-1,group-title="Movies",Star Gold HD
-http://103.185.24.134:3001/Star-Gold/index.m3u8
+http://103.135.253.32:8080/STAR-GOLD-HD/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Star Gold 2
 http://filex.me:8080/live/omer123/002773/31.m3u8
 #EXTINF:-1 ,group-title="Movies",Star Gold 2 HD
@@ -321,7 +321,7 @@ http://filex.me:8080/live/omer123/002773/52.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Colors
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorsme.smil/index.m3u8
 #EXTINF:-1 ,tvg-logo="https://shorturl.at/7dZTt"group-title="Hindi Entertainment",Colors HD
-http://filex.me:8080/live/omer123/002773/911289.m3u8
+http://103.135.253.32:8080/Color-HD/index.m3u8
 #EXTINF:-1,group-title="Hindi Entertainment",Sony SAB 
 https://drk6xq0vhn.gpcdn.net/live/sub_hd_abr/index.m3u8
 #EXTINF:-1,group-title="Hindi Entertainment",Sony SAB HD
@@ -343,7 +343,7 @@ http://premiumtvs.space/live/YqXTywueEV/damp2purchase/158970.ts
 #EXTINF:-1,group-title="Hindi Entertainment",Star Bharat
 https://d1taaads3ztvmu.cloudfront.net/120723/smil:lifeokuk.smil/index.m3u8
 #EXTINF:-1,group-title="Hindi Entertainment",Star Bharat HD
-http://filex.me:8080/live/omer123/002773/21.m3u8
+http://103.135.253.32:8080/STAR-BHARAT/index.m3u8
 #EXTINF:-1,group-title="Hindi Entertainment",Sun Neo
 http://filex.me:8080/live/omer123/002773/911247.m3u8
 #EXTINF:-1,group-title="Hindi Entertainment",HI DOST
@@ -534,7 +534,7 @@ https://drk6xq0vhn.gpcdn.net/live/desh_tv_abr/index.m3u8
 http://139.23.241.38:8088/212/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="191" tvg-name="Star News" tvg-logo="https://shorturl.at/6dtoR" group-title="Bangla Entertainment",Star News
-https://homair-tv-production.up.railway.app/api/play/STARNEWS.m3u8
+http://103.135.253.32:8080/Star-News/index.m3u8
 
 #EXTINF:-1 ,tvg-name="MY TV"tvg-logo="https://shorturl.at/o2eLN" group-title="Bangla Entertainment",MY TV
 http://116.204.149.16/mytv/index.m3u8
@@ -633,7 +633,7 @@ https://drk6xq0vhn.gpcdn.net/live/id_hd_abr/index.m3u8
 #EXTINF:-1,group-title="Infotainment",Discovery Asia
 http://cdn-2.dm8k.com/live/duarl2efgg/fgnkms2re2/1163765.m3u8
 #EXTINF:-1,group-title="Infotainment",National Geographic HD
-http://103.185.24.134:3001/NATGEO-HD/index.m3u8
+http://103.135.253.32:8080/NATGEO-HD/index.m3u8
 #EXTINF:-1,group-title="Infotainment",Wild HD
 http://103.185.24.134:3001/NATGEO-WILD-HD/index.m3u8
 #EXTINF:-1 ,group-title="Infotainment",Animal Planet
