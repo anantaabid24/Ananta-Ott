@@ -200,7 +200,7 @@ https://xtream.kbhub.online/live/kblivetv/kblivetv/4077.ts
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:zeecinemaapachd.smil/chunklist_b2628000.m3u8
 #EXTINF:-1,group-title="Movies",Zee Cinema HD
 http://103.151.60.162:2122/play/a024/index.m3u8
-#EXTINF:-1,group-title="Movies",Zee Cinema HD APAC
+#EXTINF:-1,group-title="Movies",Zee Cinema APAC
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:zeecinemaapachd.smil/chunklist_b2628000.m3u8
 #EXTINF:-1,tvg-logo="https://tinyurl.com/4p482cd9"group-title="Movies",ZEE BOLLYWOOD
 https://drk6xq0vhn.gpcdn.net/live/zee_bollywood_abr/index.m3u8
