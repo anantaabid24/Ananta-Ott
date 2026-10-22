@@ -758,7 +758,7 @@ http://139.23.241.38:8088/602/tracks-v1a1/mono.m3u8
 #EXTINF:-1 , group-title="Kids",Disney International
 http://103.151.60.162:2122/play/a018/index.m3u8
 #EXTINF:-1 , group-title="Kids",Cartoon Network
-https://cdn4.mjunoon.tv:8087/streamtest/87H/chunks.m3u8
+https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8
 #EXTINF:-1 , group-title="Kids",Cartoon Network HD+
 https://drk6xq0vhn.gpcdn.net/live/cn_hd_abr/index.m3u8
 #EXTINF:-1 , group-title="Kids",Nick HD+
