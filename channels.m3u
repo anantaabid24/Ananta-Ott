@@ -17,8 +17,12 @@ http://mino66.xyz/live/MgGZSAyfQGzCZGo/0qFiZbT2pD/1404536.ts
 http://103.114.11.37:8081/Star-sports-3/index.m3u8
 #EXTINF:-1,group-title="Sports"", STAR 4K
 http://filex.me:8080/live/omer123/002773/966306.m3u8
+#EXTINF:-1 ,group-title="Sports"",Sony Ten 1
+https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_720/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Sony Ten 1 HD
 http://139.23.241.38:8088/119/index.m3u8
+#EXTINF:-1 ,group-title="Sports"",Sony Ten 2
+https://drk6xq0vhn.gpcdn.net/live/ten_2_hd_720/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Sony Ten 2 HD
 http://139.23.241.38:8088/120/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Sony Ten 3 
@@ -27,6 +31,8 @@ http://dvltv.cc:80/play/uxN8_xYmP3o_GFqK372_hytMSPioHZ_31Jyjlvv94V0
 http://filex.me:8080/live/omer123/002773/52086.m3u8
 #EXTINF:-1 ,group-title="Sports"",Sony Ten 4
 http://filex.me:8080/live/omer123/002773/957590.m3u8
+#EXTINF:-1 ,group-title="Sports"",Sony Ten 5
+https://drk6xq0vhn.gpcdn.net/live/ten_5_hd_720/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Sony Ten 5 HD
 http://103.185.24.134:3001/SONY-SPORTS.5HD/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Unite8 Sports HD 1
@@ -393,7 +399,7 @@ http://103.185.24.134:3001/SUN-BANGLA-HD/index.m3u8
 
 
 #EXTINF:-1,group-title="Urdu Entertainment",Hum EUROPE HD
-https://stream.ottplus.live/live/hum_tv_abr/index.m3u8
+https://drk6xq0vhn.gpcdn.net/live/hum_tv_abr/index.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",Hum HD
 https://cdn4.mjunoon.tv:8087/streamtest/82H/chunks.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",Hum Sitaray
