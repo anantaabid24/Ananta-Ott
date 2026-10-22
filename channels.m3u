@@ -101,12 +101,12 @@ http://filex.me:8080/liveomer123/002773/495259.m3u8
 http://filex.me:8080/live/omer123/002773/529251.m3u8
 #EXTINF:-1,group-title="Sports"",AYM SPORTS 
 https://cdnm.dhakastream.com:8880/tvbd/tvbdSamiul/247.m3u8
-#EXTINF:-1,group-title="Sports"",STARZ PLAY 1
-http://pixtv.org/live/RAY4910/zuOWzGGGPH/1201619.m3u8
-#EXTINF:-1,group-title="Sports"",STARZ PLAY 2
-http://pixtv.org/live/RAY4910/zuOWzGGGPH/1201621.m3u8
-#EXTINF:-1,group-title="Sports"",STARZ PLAY 3
-http://pixtv.org/live/RAY4910/zuOWzGGGPH/975100.m3u8
+#EXTINF:-1,group-title="Sports"",Bein Sports 1
+http://27.124.71.27/beIN_Sports_1/index.m3u8
+#EXTINF:-1,group-title="Sports"",Bein Sports 2
+http://27.124.71.27/beIN_Sports_2/index.m3u8
+#EXTINF:-1,group-title="Sports"",Bein Sports 3
+http://27.124.71.27/beIN_Sports_3/index.m3u8
 
 
 
