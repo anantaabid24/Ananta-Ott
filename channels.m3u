@@ -307,7 +307,7 @@ http://filex.me:8080/live/omer123/002773/2093170.m3u8
 #EXTINF:-1 ,tvg-logo="https://shorturl.at/BsZMw"group-title="Hindi Entertainment",Set SD 
 https://drk6xq0vhn.gpcdn.net/live/sony_ent_hd_abr/index.m3u8
 #EXTINF:-1 ,tvg-logo="https://shorturl.at/K2sVG"group-title="Hindi Entertainment",Set HD
-http://103.185.24.134:3001/SonyEntertainmentTelevisionHD/index.m3u8
+http://dvltv.cc:80/play/uxN8_xYmP3o_GFqK372_h-kr7S43-rs1iXDxXIMjkpU
 #EXTINF:-1 ,group-title="Hindi Entertainment",Zee Tv
 https://drk6xq0vhn.gpcdn.net/live/zee_tv_hd_abr/index.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Zee Tv HD
@@ -331,7 +331,7 @@ http://filex.me:8080/live/omer123/002773/56.m3u8
 #EXTINF:-1,group-title="Hindi Entertainment",And TV
 https://drk6xq0vhn.gpcdn.net/live/and_tv_hd_abr/index.m3u8
 #EXTINF:-1,group-title="Hindi Entertainment",And TV HD
-http://filex.me:8080/live/omer123/002773/275040.m3u8
+http://dvltv.cc:80/play/uxN8_xYmP3o_GFqK372_h3OWFwPFM8a_zHaNPVE17TI
 #EXTINF:-1 ,group-title="Hindi Entertainment",Star Plus 
 https://d1rc86nwwc9fag.cloudfront.net/260723/starplusuk_2500/chunks.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Star Plus HD
@@ -697,7 +697,7 @@ https://wiselp.wiseplayout.com/9XM/HD1080/HD1080.m3u8
 #EXTINF:-1, group-title="Music",Joo Music
 https://livecdn.live247stream.com/joomusic/tv/joomusic/stream/chunks.m3u8
 #EXTINF:-1, group-title="Music",MTV
-https://da86m1sqpm3o0.cloudfront.net/28072023/smil:mtvindia.smil/playlist.m3u8
+http://dvltv.cc:80/play/uxN8_xYmP3o_GFqK372_h_PYm_-onoMUFiKJd-0F1R4
 #EXTINF:-1, group-title="Music",MTV HD
 http://ott1.co/live/7799/9977/23791.ts
 #EXTINF:-1, group-title="Music",ARY MUSIK
@@ -765,7 +765,7 @@ http://pixtv.org/live/RAY4910/zuOWzGGGPH/510219.m3u8
 #EXTINF:-1 , group-title="Kids",Nick
 http://198.195.239.50:8095/nick/tracks-v1a1/mono.m3u8
 #EXTINF:-1 , group-title="Kids",Nick Bangla
-http://filex.me:8080//omer123/002773/519972.m3u8
+http://dvltv.cc:80/play/uxN8_xYmP3o_GFqK372_h8mW-NsTzyKt5adBiEMhkzw
 #EXTINF:-1, group-title="Kids",Nickelodeon
 http://filex.me:8080//omer123/002773/499707.m3u8
 #EXTINF:-1, group-title="Kids",Nick JR
