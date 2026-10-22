@@ -588,7 +588,7 @@ https://drk6xq0vhn.gpcdn.net/live/nexus_tv_abr/index.m3u8
 https://stream.shariarsuvo.com/hls6/rajdhaniweb.m3u8
 
 #EXTINF:-1 ,tvg-name="DURONTO TV HD"tvg-logo="https://h1.nu/1wOWt" group-title="Bangla Entertainment",DURONTO TV
-http://103.185.24.134:3001/Duronto/index.m3u8
+http://103.135.253.32:8080/DORONTU-TV/index.m3u8
 
 #EXTINF:-1,tvg-name="EKHON TV HD"tvg-logo="https://h1.nu/1wOWG" group-title="Bangla Entertainment",EKHON TV HD
 https://drk6xq0vhn.gpcdn.net/live/ekhon_tv_abr/index.m3u8
