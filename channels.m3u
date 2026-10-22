@@ -159,7 +159,7 @@ http://103.185.24.134:3001/Lotus-TV-HD/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Colors Cineplex
 http://filex.me:8080/live/omer123/002773/276656.m3u8
 #EXTINF:-1 ,group-title="Movies",Colors Cineplex HD
-http://103.185.24.134:3001/COLORS-CINEPLEX-HD/index.m3u8
+http://103.135.253.32:8080/COLOR-CINEPLEX/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Colors Cineplex Superhits
 https://box.bbaria.net:8083/COLOR_CINEPLEX/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Colors Cineplex Bollywood
@@ -169,7 +169,7 @@ http://103.151.60.162:2122/play/a02r/index.m3u8
 #EXTINF:-1 ,group-title="Movies",And Pictures 
 https://drk6xq0vhn.gpcdn.net/live/and_picture_hd_abr/index.m3u8
 #EXTINF:-1 ,group-title="Movies",And Pictures HD
-http://139.23.241.38:8088/407/tracks-v1a1/mono.m3u8
+http://103.135.253.32:8080/PICTURE-HD/index.m3u8
 #EXTINF:-1,group-title="Movies",AND XPLOR HD
 http://103.185.24.134:3001/XPLOR-HD/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Star Gold Select
@@ -205,7 +205,7 @@ https://xtream.kbhub.online/live/kblivetv/kblivetv/4077.ts
 #EXTINF:-1,group-title="Movies",Zee Cinema
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:zeecinemaapachd.smil/chunklist_b2628000.m3u8
 #EXTINF:-1,group-title="Movies",Zee Cinema HD
-http://103.151.60.162:2122/play/a024/index.m3u8
+http://103.135.253.32:8080/ZEE-CINEMA/index.m3u8
 #EXTINF:-1,group-title="Movies",Zee Cinema APAC
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:zeecinemaapachd.smil/chunklist_b2628000.m3u8
 #EXTINF:-1,tvg-logo="https://tinyurl.com/4p482cd9"group-title="Movies",ZEE BOLLYWOOD
@@ -383,7 +383,7 @@ http://trxx.in:80/play/live.php?mac=00:1A:79:D2:3D:EE&stream=225740&extension=ts
 #EXTINF:-1 ,group-title="Hindi Entertainment",Colors Bangla HD
 http://103.151.60.162:2122/play/a02o/index.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Sun Bangla  HD
-http://103.185.24.134:3001/SUN-BANGLA-HD/index.m3u8
+http://103.135.253.32:8080/SUN-BANGLA/index.m3u8
 
 
 
