@@ -691,8 +691,13 @@ https://amg01082-cna-amg01082c1-rlaxx-us-11304.playouts.now.amagi.tv/playlist108
 
 
 
+
+
+
 #EXTINF:-1 , group-title="Music",Sangeet Bangla 
 https://cdn.pishow.tv/ott/live/1143/master.m3u8
+#EXTINF:-1 , group-title="Music",Bengali Beats
+https://live20.bozztv.com/giatvplayout7/giatv-209587/index.m3u8
 #EXTINF:-1 , group-title="Music",Dhoom Music Bangla
 https://cdn.pishow.tv/ott/live/1456/master.m3u8
 #EXTINF:-1,  group-title="Music",B4U MUSIC
