@@ -189,7 +189,7 @@ http://filex.me:8080/live/omer123/002773/911263.m3u8
 #EXTINF:-1 ,group-title="Movies",Sony Max
 http://filex.me:8080/live/omer123/002773/276652.m3u8
 #EXTINF:-1 ,group-title="Movies",Sony Max HD
-http://103.151.60.162:2122/play/a014/index.m3u8
+http://139.23.241.38:8088/404/tracks-v1a1/mono.m3u8
 #EXTINF:-1 ,group-title="Movies",Sony MAX 1
 https://bdtop1.tvhunter.top/max1/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Sony Max 2
