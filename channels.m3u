@@ -486,7 +486,7 @@ https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/In
 http://dvltv.cc:80/play/uxN8_xYmP3o_GFqK372_h_AC5diY9zoPDtnn10RTLCo
 
 #EXTINF:-1 tvg-id="122" tvg-name="BTV" tvg-logo="https://tinyurl.com/4mkhyrpm" group-title="Bangla Entertainment",BTV
-http://dvltv.cc:80/play/uxN8_xYmP3o_GFqK372_h9k2JufmTt1ob_ZNWpwfjKY
+http://103.135.253.32:8080/BTV/index.m3u8
 
 #EXTINF:-1 tvg-id="122" tvg-name="BTV NEWS" tvg-logo="https://tinyurl.com/4mkhyrpm" group-title="Bangla Entertainment",BTV NEWS
 http://139.23.241.38:8088/106/tracks-v1a1/mono.m3u8
