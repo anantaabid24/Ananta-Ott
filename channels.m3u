@@ -107,8 +107,8 @@ http://27.124.71.27/beIN_Sports_1/index.m3u8
 http://27.124.71.27/beIN_Sports_2/index.m3u8
 #EXTINF:-1,group-title="Sports"",Bein Sports 3
 http://27.124.71.27/beIN_Sports_3/index.m3u8
-
-
+#EXTINF:-1,group-title="Sports"",Bein Sports XTRA
+https://bein-xtra-bein.amagi.tv/playlist.m3u8
 
 
 
