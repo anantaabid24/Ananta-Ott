@@ -177,13 +177,13 @@ http://filex.me:8080/live/omer123/002773/911323.m3u8
 #EXTINF:-1 ,group-title="Movies",Star Gold Select
 http://103.185.24.134:3001/STAR-GOLD-SEL-HD/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Star Gold Select HD
-http://filex.me:8080/live/omer123/002773/275051.m3u8
+https://xtream.kbhub.online/live/kblivetv/kblivetv/23428.ts
 #EXTINF:-1,group-title="Movies",Star Gold
 http://139.23.241.38:8088/402/index.m3u8
 #EXTINF:-1,group-title="Movies",Star Gold HD
 http://103.135.253.32:8080/STAR-GOLD-HD/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Star Gold 2
-http://filex.me:8080/live/omer123/002773/31.m3u8
+https://xtream.kbhub.online/live/kblivetv/kblivetv/4324.ts
 #EXTINF:-1 ,group-title="Movies",Star Gold 2 HD
 http://103.151.60.162:2122/play/a01v/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Star Gold Romance
@@ -713,7 +713,7 @@ https://livecdn.live247stream.com/joomusic/tv/joomusic/stream/chunks.m3u8
 #EXTINF:-1, group-title="Music",MTV
 http://dvltv.cc:80/play/uxN8_xYmP3o_GFqK372_h_PYm_-onoMUFiKJd-0F1R4
 #EXTINF:-1, group-title="Music",MTV HD
-http://ott1.co/live/7799/9977/23791.ts
+https://xtream.kbhub.online/live/kblivetv/kblivetv/130045.ts
 #EXTINF:-1, group-title="Music",ARY MUSIK
 http://filex.me:8080//omer123/002773/246686.m3u8
 #EXTINF:-1, group-title="Music",Music India
