@@ -136,7 +136,6 @@ http://filex.me:8080/live/omer123/002773/911299.m3u8
 #EXTINF:-1,group-title="Movies",Sony PIX
 https://app.uckingcrazy1.workers.dev/api/play/Sony%20Pix.m3u8
 #EXTINF:-1,group-title="Movies",Sony PIX HD
-http://ott1.co/live/7799/9977/9381.ts
 http://103.151.60.162:2122/play/a01d/index.m3u8
 #EXTINF:-1,group-title="Movies",MNX HD
 http://filex.me:8080/live/omer123/002773/530421.m3u8
@@ -243,7 +242,7 @@ https://cdn.pishow.tv/ott/live/1461/master.m3u8
 #EXTINF:-1,group-title="Movies",Goldmines 2
 https://cdn.pishow.tv/ott/live/1460/master.m3u8
 #EXTINF:-1,group-title="Movies",All Time Movies
-http://filex.me:8080/live/omer123/002773/911237.m3u8
+https://fta.ektv.in/live/54/54_0.m3u8
 #EXTINF:-1 ,group-title="Movies",Jalsha Movies 
 https://box.bbaria.net:8083/Jalsha_Movie/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Jalsha Movies HD
@@ -386,6 +385,8 @@ http://139.23.241.38:8088/302/tracks-v1a1/mono.m3u8
 http://trxx.in:80/play/live.php?mac=00:1A:79:D2:3D:EE&stream=225740&extension=ts
 #EXTINF:-1 ,group-title="Hindi Entertainment",Colors Bangla HD
 http://103.151.60.162:2122/play/a02o/index.m3u8
+#EXTINF:-1 ,group-title="Hindi Entertainment",Sun Bangla
+http://103.151.60.162:2122/play/a01p/index.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Sun Bangla  HD
 http://103.135.253.32:8080/SUN-BANGLA/index.m3u8
 
@@ -646,7 +647,7 @@ http://cdn-2.dm8k.com/live/duarl2efgg/fgnkms2re2/1163765.m3u8
 #EXTINF:-1,group-title="Infotainment",National Geographic HD
 http://103.135.253.32:8080/NATGEO-HD/index.m3u8
 #EXTINF:-1,group-title="Infotainment",Wild HD
-http://103.185.24.134:3001/NATGEO-WILD-HD/index.m3u8
+http://103.151.60.162:2122/play/a01f/index.m3u8
 #EXTINF:-1 ,group-title="Infotainment",Animal Planet
 https://drk6xq0vhn.gpcdn.net/live/animal_planet_sd_abr/index.m3u8
 #EXTINF:-1 ,group-title="Infotainment",Animal Planet HD
