@@ -165,7 +165,7 @@ http://103.135.253.32:8080/COLOR-CINEPLEX/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Colors Cineplex Superhits
 https://xtream.kbhub.online/live/kblivetv/kblivetv/172368.ts
 #EXTINF:-1 ,group-title="Movies",Colors Cineplex Bollywood
-https://xtream.kbhub.online/live/kblivetv/kblivetv/37074.ts
+http://bosstv.click:8080/live/18012689/77561563/97509.m3u8
 #EXTINF:-1 ,group-title="Movies",Colors Infinity HD
 http://103.151.60.162:2122/play/a02r/index.m3u8
 #EXTINF:-1 ,group-title="Movies",And Pictures 
@@ -215,7 +215,7 @@ https://drk6xq0vhn.gpcdn.net/live/zee_bollywood_abr/index.m3u8
 #EXTINF:-1,tvg-logo="https://shorturl.at/mfJfl"group-title="Movies",ZEE ACTION
 https://drk6xq0vhn.gpcdn.net/live/zee_action_abr/index.m3u8
 #EXTINF:-1,tvg-logo="https://shorturl.at/jYUSn"group-title="Movies",ZEE Anmol Cinema   
-http://filex.me:8080/live/omer123/002773/911227.m3u8
+http://bosstv.click:8080/live/18012689/77561563/131803.m3u8
 #EXTINF:-1,group-title="Movies",ZEE Anmol Cinema 2
 http://filex.me:8080/live/omer123/002773/911229.m3u8
 #EXTINF:-1,group-title="Movies",ZEE Classic
@@ -299,8 +299,8 @@ https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8
 https://fta.ektv.in/live/351/master.m3u8
 #EXTINF:-1,group-title="Movies", MH ONE
 https://fta.ektv.in/live/353/master.m3u8
-
-
+#EXTINF:-1,group-title="Movies",Dishoom Films
+http://bosstv.click:8080/live/18012689/77561563/89938.m3u8
 
 
 
