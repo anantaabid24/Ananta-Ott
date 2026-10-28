@@ -232,6 +232,7 @@ https://drk6xq0vhn.gpcdn.net/live/b4u_movies_abr/index.m3u8
 https://cdn.pishow.tv/ott/live/227/master.m3u8
 #EXTINF:-1 ,group-title="Movies",Shemaroo Josh
 https://airtelapp.shemaroo.com/shemarooChumbakTV/smil:shemarooChumbakTVadp.smil/index.m3u8
+https://mumt04.tangotv.in/m18aqlK4SHEMAROOJOSH/index.m3u8
 #EXTINF:-1,group-title="Movies",Goldmines
 https://cdn.pishow.tv/ott/live/1459/master.m3u8
 #EXTINF:-1,group-title="Movies",Goldmines Bollywood
@@ -274,7 +275,7 @@ https://a-cdn.klowdtv.com/live1/smc_720p/chunks.m3u8
 #EXTINF:-1,group-title="Movies",Sony Cine
 https://a-cdn.klowdtv.com/live1/cine_720p/chunks.m3u8
 #EXTINF:-1,group-title="Movies",My Time Movie Network
-https://mytime-tcl.amagi.tv/playlist.m3u8
+https://appletree-mytimeau-samsung.amagi.tv/playlist.m3u8
 #EXTINF:-1,group-title="Movies", Lifetime Movie Network
 https://shorturl.at/nds8L
 #EXTINF:-1,group-title="Movies",Shemaroo Bollywood
@@ -282,7 +283,7 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywoo
 #EXTINF:-1,group-title="Movies",Ifilm
 https://live.presstv.co.uk/hls/ifilmen_4_482/index.m3u8
 #EXTINF:-1,group-title="Movies",Ifilm English
-https://live.presstv.co.uk/hls/ifilmen_4_482/index.m3u8
+https://live.presstv.ir/hls/ifilmen.m3u8
 #EXTINF:-1,group-title="Movies",Ifilm 2
 https://live.presstv.co.uk/hls/ifilm2_4_482/index.m3u8
 #EXTINF:-1,group-title="Movies",Persiana Cinema
