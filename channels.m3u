@@ -136,6 +136,7 @@ http://filex.me:8080/live/omer123/002773/911299.m3u8
 #EXTINF:-1,group-title="Movies",Sony PIX
 https://app.uckingcrazy1.workers.dev/api/play/Sony%20Pix.m3u8
 #EXTINF:-1,group-title="Movies",Sony PIX HD
+https://xtream.kbhub.online/live/kblivetv/kblivetv/9381.ts
 http://103.151.60.162:2122/play/a01d/index.m3u8
 #EXTINF:-1,group-title="Movies",MNX HD
 http://filex.me:8080/live/omer123/002773/530421.m3u8
@@ -300,6 +301,12 @@ https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8
 https://fta.ektv.in/live/351/master.m3u8
 #EXTINF:-1,group-title="Movies", MH ONE
 https://fta.ektv.in/live/353/master.m3u8
+
+
+
+
+
+
 
 
 
