@@ -163,9 +163,9 @@ http://filex.me:8080/live/omer123/002773/276656.m3u8
 #EXTINF:-1 ,group-title="Movies",Colors Cineplex HD
 http://103.135.253.32:8080/COLOR-CINEPLEX/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Colors Cineplex Superhits
-https://box.bbaria.net:8083/COLOR_CINEPLEX/index.m3u8
+https://xtream.kbhub.online/live/kblivetv/kblivetv/172368.ts
 #EXTINF:-1 ,group-title="Movies",Colors Cineplex Bollywood
-http://live.balajibroadband.com:3500/live/1763.m3u8
+https://xtream.kbhub.online/live/kblivetv/kblivetv/37074.ts
 #EXTINF:-1 ,group-title="Movies",Colors Infinity HD
 http://103.151.60.162:2122/play/a02r/index.m3u8
 #EXTINF:-1 ,group-title="Movies",And Pictures 
@@ -173,9 +173,7 @@ https://drk6xq0vhn.gpcdn.net/live/and_picture_hd_abr/index.m3u8
 #EXTINF:-1 ,group-title="Movies",And Pictures HD
 http://103.135.253.32:8080/PICTURE-HD/index.m3u8
 #EXTINF:-1,group-title="Movies",AND XPLOR HD
-http://filex.me:8080/live/omer123/002773/911323.m3u8
-#EXTINF:-1 ,group-title="Movies",Star Gold Select
-http://103.185.24.134:3001/STAR-GOLD-SEL-HD/index.m3u8
+https://xtream.kbhub.online/live/kblivetv/kblivetv/4082.ts
 #EXTINF:-1 ,group-title="Movies",Star Gold Select HD
 http://filex.me:8080//omer123/002773/275051.m3u8
 #EXTINF:-1,group-title="Movies",Star Gold
