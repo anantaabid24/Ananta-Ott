@@ -590,7 +590,7 @@ https://drk6xq0vhn.gpcdn.net/live/global_tv_abr/index.m3u8
 https://tvsen6.aynaott.com/cLuA3hJR/index.m3u8
 
 #EXTINF:-1,tvg-name="CHANNEL S HD"tvg-logo="https://h1.nu/1Cwc5" group-title="Bangla Entertainment",CHANNEL S
-https://app.ncare.live/live-orgin/channels.stream/playlist.m3u8
+https://box.bbaria.net:8083/ChannelS/video.m3u8
 
 #EXTINF:-1 ,tvg-name="NEXUS TV HD"tvg-logo="https://h1.nu/1wOW1" group-title="Bangla Entertainment",NEXUS TV HD
 https://drk6xq0vhn.gpcdn.net/live/nexus_tv_abr/index.m3u8
