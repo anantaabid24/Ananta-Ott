@@ -44,7 +44,7 @@ https://drk6xq0vhn.gpcdn.net/live/ten_cricket_hd_abr/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Euro sports HD
 https://drk6xq0vhn.gpcdn.net/live/euro_sports_hd_abr/index.m3u8
 #EXTINF:-1,group-title="Sports"", TEN SPORTS
-http://filex.me:8080/live/omer123/002773/52106.m3u8
+https://live.msnetworks.net/ten-sports/720p.m3u8
 #EXTINF:-1 ,group-title="Sports"",A Sports HD
 https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",GEO SUPER HD
@@ -417,9 +417,9 @@ https://drk6xq0vhn.gpcdn.net/live/hum_tv_abr/index.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",Hum HD
 https://cdn4.mjunoon.tv:8087/streamtest/82H/chunks.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",Hum Sitaray
-https://media.hmair.xyz/api/play/HUM%20Sitaray.m3u8
+https://live.msnetworks.net/hum-sitaray/720p.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",Green HD
-https://cdn01.medialive.one:2096/GREENENTFHD/tracks-v1a1/mono.m3u8
+https://live.msnetworks.net/green-tv/720p.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",Geo HD
 https://cdn01.medialive.one:2096/GEOENTFHD/tracks-v1a1/mono.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",Geo Kahani
@@ -812,6 +812,8 @@ http://103.135.253.32:8080/HUNGAMA/index.m3u8
 http://198.195.239.50:8095/SUPER.HUNGAMA/index.m3u8
 #EXTINF:-1, group-title="Kids",Minimax
 https://s2.ideationtec.live/MiniMax/MiniMax.m3u8
+#EXTINF:-1, group-title="Kids",KIDS ZONE
+https://live.msnetworks.net/kidzone/720p.m3u8
 #EXTINF:-1, group-title="Kids",Zoo Moo
 https://zoomoo-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1, group-title="Kids",Rongeen Tv
