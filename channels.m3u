@@ -48,9 +48,9 @@ http://filex.me:8080/live/omer123/002773/52106.m3u8
 #EXTINF:-1 ,group-title="Sports"",A Sports HD
 https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",GEO SUPER HD
-http://filex.me:8080/live/omer123/002773/52080.m3u8
+https://live.msnetworks.net/geo-ent/720p.m3u8
 #EXTINF:-1 ,group-title="Sports"",Ptv Sports HD
-http://103.151.60.162:2122/play/a0f9/index.m3u8
+https://live.msnetworks.net/ptv-sports/master.m3u8
 #EXTINF:-1 ,group-title="Sports"",Fast Sports
 http://198.195.239.50:8095/FAST.SPORTS.HD/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",ASTRO PREMIER 2 HD
@@ -145,7 +145,7 @@ http://103.135.253.32:8080/MOVIES-NOW/index.m3u8
 #EXTINF:-1,group-title="Movies",MN PLUS HD
 http://103.135.253.32:8080/MN-PLUS/index.m3u8
 #EXTINF:-1,group-title="Movies",AXN
-http://103.185.24.134:3001/AXN-HD/index.m3u8
+https://live.msnetworks.net/axn/720p.m3u8
 #EXTINF:-1,group-title="Movies",Rock Action
 http://filex.me:8080/live/omer123/002773/302298.m3u8
 #EXTINF:-1,group-title="Movies",Rock Entertainment
@@ -256,6 +256,8 @@ http://103.114.11.37:8081/Colors-bangla-cinema/index.m3u8
 https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Filmax
 https://cdn05khi.tamashaweb.com:8087/jazzauth/Filmax-abr/playlist.m3u8
+#EXTINF:-1 ,group-title="Movies",IN PLUS
+https://live.msnetworks.net/in-plus/720p.m3u8
 #EXTINF:-1 , group-title="Movies",MBC Bollywood HD
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-bollywood/546eb40d7dcf9a209255dd2496903764/index.m3u8
 #EXTINF:-1 , group-title="Movies",MBC MAX
@@ -429,9 +431,9 @@ https://cdn4.mjunoon.tv:8087/streamtest/85H/chunks.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",Bol HD
 https://live1.ssmmcdn.cloud:2096/BOLENTFHD/index.m3u8
 #EXTINF:-1, group-title="Urdu Entertainment",AAN HD
-https://s5.ideationtec.live/AAN_HD/AAN_HD.m3u8
+https://live.msnetworks.net/aan-tv/720p.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",Express HD
-https://cdn01.medialive.one:2096/EXPENTFHD/tracks-v1a1/mono.m3u8
+https://live.msnetworks.net/express-ent/720p.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",Sab TV HD
 https://s1.ideationtec.live/SAB_Entertainment/SAB_Entertainment.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",Set Entertainment
@@ -453,7 +455,7 @@ https://ml-pull-hwc.myco.io/MixONE/hls/index.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",Mix Bel Araby
 https://ml-pull-hwc.myco.io/MixBelAraby/hls/index.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",Aur Life HD
-https://s3.ideationtec.live/Aur_Life/Aur_Life.m3u8
+https://live.msnetworks.net/aur-life/720p.m3u8
 #EXTINF:-1, group-title="Urdu Entertainment",MBC 1
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1/15cf99af5de54063fdabfefe66adc075/index.m3u8
 #EXTINF:-1, group-title="Urdu Entertainment",MBC 4
