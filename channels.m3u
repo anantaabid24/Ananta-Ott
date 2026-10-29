@@ -1,7 +1,7 @@
 #EXTM3U
 #EXTINF:-1 ,tvg-name="T SPORTS"group-title="Sports"',T-Sports
 http://45.117.61.162/01_Tsports_HD/tracks-v1a1/mono.m3u8
-#EXTINF:-1 ,group-title="Sports"",Star Sports Select 1 HD
+#EXTINF:-1 ,group-title="Sports"",Star Sports Select 1 HD 
 http://139.23.241.38:8088/123/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Star Sports Select 2 HD
 http://139.23.241.38:8088/124/index.m3u8
