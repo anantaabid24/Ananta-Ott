@@ -14,7 +14,7 @@ http://139.23.241.38:8088/115/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Star Sports 2 HINDI HD
 http://filex.me:8080/live/omer123/002773/910889.m3u8
 #EXTINF:-1 ,group-title="Sports",Star Sports 3
-http://filex.me:8080/live/omer123/002773/846950.m3u8
+http://103.114.11.37:8081/Star-sports-3/index.m3u8?token=sboxcast
 #EXTINF:-1,group-title="Sports"", STAR 4K
 http://filex.me:8080/live/omer123/002773/966306.m3u8
 #EXTINF:-1 ,group-title="Sports"",Sony Ten 1
@@ -30,7 +30,7 @@ http://103.135.253.32:8080/TEN-3/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Sony Ten 3 HD
 http://filex.me:8080/live/omer123/002773/52086.m3u8
 #EXTINF:-1 ,group-title="Sports"",Sony Ten 4
-http://filex.me:8080/live/omer123/002773/957590.m3u8
+http://103.114.11.37:8081/Sony-sports-4/index.m3u8?token=sboxcast
 #EXTINF:-1 ,group-title="Sports"",Sony Ten 5
 https://drk6xq0vhn.gpcdn.net/live/ten_5_hd_720/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Sony Ten 5 HD
@@ -130,16 +130,15 @@ https://bein-xtra-bein.amagi.tv/playlist.m3u8
 #EXTINF:-1 ,group-title="Movies",Star Movies HD
 http://103.135.253.32:8080/STAR-MOVIES/index.m3u8
 #EXTINF:-1,group-title="Movies",STAR Movies Select HD
-http://103.151.60.162:2122/play/a02l/index.m3u8
+http://103.114.11.37:8081/Star-movies-select/index.m3u8?token=sboxcast
 #EXTINF:-1,group-title="Movies",Romedy Now
 http://filex.me:8080/live/omer123/002773/911299.m3u8
 #EXTINF:-1,group-title="Movies",Sony PIX
 https://app.uckingcrazy1.workers.dev/api/play/Sony%20Pix.m3u8
 #EXTINF:-1,group-title="Movies",Sony PIX HD
-https://xtream.kbhub.online/live/kblivetv/kblivetv/9381.ts
-http://103.151.60.162:2122/play/a01d/index.m3u8
+http://filex.me:8080/live/omer123/002773/911301.m3u8
 #EXTINF:-1,group-title="Movies",MNX HD
-https://xtream.kbhub.online/live/kblivetv/kblivetv/191.ts
+http://filex.me:8080/live/omer123/002773/911297.m3u8
 #EXTINF:-1,group-title="Movies",Movies Now HD
 http://103.135.253.32:8080/MOVIES-NOW/index.m3u8
 #EXTINF:-1,group-title="Movies",MN PLUS HD
@@ -154,8 +153,6 @@ http://filex.me:8080/live/omer123/002773/302299.m3u8
 http://filex.me:8080/live/omer123/002773/302309.m3u8
 #EXTINF:-1,group-title="Movies", HBO
 http://filex.me:8080/live/omer123/002773/302248.m3u8
-#EXTINF:-1,group-title="Movies", HBO SIGNATURE
-http://103.151.60.162:2122/play/a02g/index.m3u8
 #EXTINF:-1,group-title="Movies",Lotus Macua
 http://103.185.24.134:3001/Lotus-TV-HD/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Colors Cineplex
@@ -163,17 +160,17 @@ http://filex.me:8080/live/omer123/002773/276656.m3u8
 #EXTINF:-1 ,group-title="Movies",Colors Cineplex HD
 http://103.135.253.32:8080/COLOR-CINEPLEX/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Colors Cineplex Superhits
-https://xtream.kbhub.online/live/kblivetv/kblivetv/172368.ts
+http://filex.me:8080//omer123/002773/911252.m3u8
 #EXTINF:-1 ,group-title="Movies",Colors Cineplex Bollywood
-http://bosstv.click:8080/live/18012689/77561563/97509.m3u8
+http://filex.me:8080//omer123/002773/911273.m3u8
 #EXTINF:-1 ,group-title="Movies",Colors Infinity HD
-http://103.151.60.162:2122/play/a02r/index.m3u8
+http://filex.me:8080//omer123/002773/911321.m3u8
 #EXTINF:-1 ,group-title="Movies",And Pictures 
 https://drk6xq0vhn.gpcdn.net/live/and_picture_hd_abr/index.m3u8
 #EXTINF:-1 ,group-title="Movies",And Pictures HD
 http://103.135.253.32:8080/PICTURE-HD/index.m3u8
 #EXTINF:-1,group-title="Movies",AND XPLOR HD
-https://xtream.kbhub.online/live/kblivetv/kblivetv/4082.ts
+http://filex.me:8080//omer123/002773/911323.m3u8
 #EXTINF:-1 ,group-title="Movies",Star Gold Select
 http://103.114.11.37:8081/StarGoldSelect/index.m3u8?token=sboxcast
 #EXTINF:-1 ,group-title="Movies",Star Gold Select HD
@@ -185,7 +182,7 @@ http://103.135.253.32:8080/STAR-GOLD-HD/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Star Gold 2
 https://xtream.kbhub.online/live/kblivetv/kblivetv/4324.ts
 #EXTINF:-1 ,group-title="Movies",Star Gold 2 HD
-http://103.151.60.162:2122/play/a01v/index.m3u8
+http://filex.me:8080/live/omer123/002773/911305.m3u8
 #EXTINF:-1 ,group-title="Movies",Star Gold Romance
 http://139.23.241.38:8088/409/tracks-v1a1/mono.m3u8
 #EXTINF:-1 ,group-title="Movies",Star Gold Thrills
@@ -253,7 +250,7 @@ http://103.135.253.32:8080/Jalsha_movies-HD/index.m3u8
 https://drk6xq0vhn.gpcdn.net/live/zee_bangla_cinema_abr/index.m3u8
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/master2.m3u8
 #EXTINF:-1 ,group-title="Movies",Colors Bangla Cinema
-http://103.114.11.37:8081/Colors-bangla-cinema/index.m3u8
+http://103.114.11.37:8081/Colors-bangla-cinema/index.m3u8?token=sboxcast
 #EXTINF:-1 ,group-title="Movies",Mix Hollywood
 https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Filmax
@@ -395,9 +392,7 @@ http://139.23.241.38:8088/302/tracks-v1a1/mono.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Colors Bangla
 http://trxx.in:80/play/live.php?mac=00:1A:79:D2:3D:EE&stream=225740&extension=ts
 #EXTINF:-1 ,group-title="Hindi Entertainment",Colors Bangla HD
-http://103.151.60.162:2122/play/a02o/index.m3u8
-#EXTINF:-1 ,group-title="Hindi Entertainment",Sun Bangla
-http://103.151.60.162:2122/play/a01p/index.m3u8
+http://103.135.253.32:8080/COLORS-BANGLA-HD/index.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Sun Bangla  HD
 http://103.135.253.32:8080/SUN-BANGLA/index.m3u8
 
@@ -658,7 +653,7 @@ http://cdn-2.dm8k.com/live/duarl2efgg/fgnkms2re2/1163765.m3u8
 #EXTINF:-1,group-title="Infotainment",National Geographic HD
 http://103.135.253.32:8080/NATGEO-HD/index.m3u8
 #EXTINF:-1,group-title="Infotainment",Wild HD
-http://103.151.60.162:2122/play/a01f/index.m3u8
+
 #EXTINF:-1 ,group-title="Infotainment",Animal Planet
 https://drk6xq0vhn.gpcdn.net/live/animal_planet_sd_abr/index.m3u8
 #EXTINF:-1 ,group-title="Infotainment",Animal Planet HD
