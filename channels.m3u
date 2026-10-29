@@ -2,19 +2,19 @@
 #EXTINF:-1 ,tvg-name="T SPORTS"group-title="Sports"',T-Sports
 http://45.117.61.162/01_Tsports_HD/tracks-v1a1/mono.m3u8
 #EXTINF:-1 ,group-title="Sports"",Star Sports Select 1 HD 
-http://139.23.241.38:8088/123/index.m3u8
+http://103.135.253.32:8080/STAR-SPORTS-SELECT-1/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Star Sports Select 2 HD
 http://139.23.241.38:8088/124/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Star Sports 1 HD
 http://103.135.253.32:8080/STAR-SPORTS-1-HD/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Star Sports 1 HINDI HD
-http://139.23.241.38:8088/110/tracks-v1a1/mono.m3u8
+http://filex.me:8080/live/omer123/002773/955662.m3u8
 #EXTINF:-1 ,group-title="Sports"",Star Sports 2 HD
 http://139.23.241.38:8088/115/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Star Sports 2 HINDI HD
-http://139.23.241.38:8088/110/index.m3u8
+http://filex.me:8080/live/omer123/002773/910889.m3u8
 #EXTINF:-1 ,group-title="Sports",Star Sports 3
-http://103.114.11.37:8081/Star-sports-3/index.m3u8
+http://filex.me:8080/live/omer123/002773/846950.m3u8
 #EXTINF:-1,group-title="Sports"", STAR 4K
 http://filex.me:8080/live/omer123/002773/966306.m3u8
 #EXTINF:-1 ,group-title="Sports"",Sony Ten 1
@@ -36,7 +36,7 @@ https://drk6xq0vhn.gpcdn.net/live/ten_5_hd_720/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Sony Ten 5 HD
 http://103.135.253.32:8080/TEN-5/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",Unite8 Sports HD 1
-http://103.114.11.37:8081/Unite8-sports-1/index.m3u8
+http://103.114.11.37:8081/Unite8-sports-1/index.m3u8?token=sboxcast
 #EXTINF:-1 ,group-title="Sports"",Unite8 Sports HD 2
 http://www.albshipe.com/live/F917341/23LUD11/808789.m3u8
 #EXTINF:-1,group-title="Sports"",Ten Cricket HD
@@ -50,7 +50,7 @@ https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",GEO SUPER HD
 https://live.msnetworks.net/geo-ent/master.m3u8
 #EXTINF:-1 ,group-title="Sports"",Ptv Sports HD
-https://live.msnetworks.net/ptv-sports/master.m3u8
+http://103.114.11.37:8081/PTV/index.m3u8?token=sboxcast
 #EXTINF:-1 ,group-title="Sports"",Fast Sports
 http://198.195.239.50:8095/FAST.SPORTS.HD/index.m3u8
 #EXTINF:-1 ,group-title="Sports"",ASTRO PREMIER 2 HD
@@ -174,6 +174,8 @@ https://drk6xq0vhn.gpcdn.net/live/and_picture_hd_abr/index.m3u8
 http://103.135.253.32:8080/PICTURE-HD/index.m3u8
 #EXTINF:-1,group-title="Movies",AND XPLOR HD
 https://xtream.kbhub.online/live/kblivetv/kblivetv/4082.ts
+#EXTINF:-1 ,group-title="Movies",Star Gold Select
+http://103.114.11.37:8081/StarGoldSelect/index.m3u8?token=sboxcast
 #EXTINF:-1 ,group-title="Movies",Star Gold Select HD
 http://filex.me:8080//omer123/002773/275051.m3u8
 #EXTINF:-1,group-title="Movies",Star Gold
