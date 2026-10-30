@@ -465,6 +465,7 @@ https://ml-pull-hwc.myco.io/MixONE/hls/index.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",Mix Bel Araby
 https://ml-pull-hwc.myco.io/MixBelAraby/hls/index.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",Aur Life HD
+http://124.109.47.101/hls/stream1.m3u8
 https://live.msnetworks.net/aur-life/master.m3u8
 #EXTINF:-1, group-title="Urdu Entertainment",MBC 1
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1/15cf99af5de54063fdabfefe66adc075/index.m3u8
