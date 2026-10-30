@@ -222,7 +222,7 @@ http://falcon-sa.xyz/live/9951535481/7076609071/652696.m3u8
 #EXTINF:-1,group-title="Movies",ZEE Cafe
 https://drk6xq0vhn.gpcdn.net/live/zee_cafe_hd_abr/index.m3u8
 #EXTINF:-1,group-title="Movies",Big Magic
-http://beunm.yt/live/Istanbul1408/eB2hjQ9eEZ/72173.m3u8
+https://premiumplug.fun/tee/zee5.php/0-9-bigmagic_1786965389.m3u8
 #EXTINF:-1,group-title="Movies", ZEE BIOSKOP
 https://premiumplug.fun/tee/zee5.php/0-9-zeebioskop.m3u8
 #EXTINF:-1,group-title="Movies",B4U Movies
@@ -331,8 +331,12 @@ http://103.135.253.32:8080/SONY-ENTARTANMEN/index.m3u8
 https://drk6xq0vhn.gpcdn.net/live/zee_tv_hd_abr/index.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Zee Tv HD
 https://d1rc86nwwc9fag.cloudfront.net/260723/zeetvapachd_2500/chunks.m3u8
+#EXTINF:-1 ,group-title="Hindi Entertainment",Zee Tv HD
+https://premiumplug.fun/tee/zee5.php/0-9-zeetvhd.m3u8
 #EXTINF:-1,group-title="Hindi Entertainment",ZEE Anmol
 https://drk6xq0vhn.gpcdn.net/live/zee_anmol_abr/index.m3u8
+#EXTINF:-1,group-title="Hindi Entertainment",ZEE YUVA
+https://premiumplug.fun/tee/zee5.php/0-9-zeeyuva.m3u8
 #EXTINF:-1,group-title="Hindi Entertainment",ZEE AFLAM
 https://premiumplug.fun/tee/zee5.php/0-9-zeeaflam.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Colors Rishtey
@@ -352,7 +356,7 @@ http://filex.me:8080/live/omer123/002773/56.m3u8
 #EXTINF:-1,group-title="Hindi Entertainment",And TV
 https://drk6xq0vhn.gpcdn.net/live/and_tv_hd_abr/index.m3u8
 #EXTINF:-1,group-title="Hindi Entertainment",And TV HD
-http://dvltv.cc:80/play/uxN8_xYmP3o_GFqK372_h3OWFwPFM8a_zHaNPVE17TI
+https://premiumplug.fun/tee/zee5.php/0-9-bigmagic_1786965389.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Star Plus 
 https://d1rc86nwwc9fag.cloudfront.net/260723/starplusuk_2500/chunks.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Star Plus HD
