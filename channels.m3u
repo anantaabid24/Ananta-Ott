@@ -256,7 +256,7 @@ http://103.114.11.37:8081/Colors-bangla-cinema/index.m3u8?token=sboxcast
 #EXTINF:-1 ,group-title="Movies",Mix Hollywood
 https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8
 #EXTINF:-1 ,group-title="Movies",Filmax
-https://cdn05khi.tamashaweb.com:8087/jazzauth/Filmax-abr/playlist.m3u8
+http://filex.me:8080/live/omer123/002773/246610.m3u8
 #EXTINF:-1 ,group-title="Movies",IN PLUS
 https://cdn4.mjunoon.tv:8087/streamtest/165H/chunks.m3u8
 #EXTINF:-1 , group-title="Movies",MBC Bollywood HD
