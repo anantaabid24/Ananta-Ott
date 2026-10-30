@@ -427,10 +427,10 @@ https://cdn4.mjunoon.tv:8087/streamtest/82H/chunks.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",Hum Sitaray
 https://j6nfugukcl.gpcdn.net/tile_2/master.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",Green HD
-https://cdn01.medialive.one:2096/GREENENTFHD/index.m3u8
+https://cdn01.medialive.one:2096/GREENENTFHD/tracks-v1a1/mono.m3u8
 https://cdn4.mjunoon.tv:8087/streamtest/166M/chunks.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",Geo HD
-https://cdn01.medialive.one:2096/GEOENTFHD/index.m3u8
+https://cdn01.medialive.one:2096/GEOENTFHD/tracks-v1a1/mono.m3u8
 https://cdn4.mjunoon.tv:8087/streamtest/122M/chunks.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",Geo Kahani
 http://filex.me:8080//omer123/002773/110052.m3u8
@@ -439,7 +439,7 @@ https://cdn4.mjunoon.tv:8087/streamtest/84H/chunks.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",ARY Zindegi
 https://cdn4.mjunoon.tv:8087/streamtest/85H/chunks.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",Bol HD
-https://cdn01.medialive.one:2096/BOLENTFHD/index.m3u8
+https://cdn01.medialive.one:2096/BOLENTFHD/tracks-v1a1/mono.m3u8
 #EXTINF:-1, group-title="Urdu Entertainment",AAN HD
 https://cdn.rabta.stream/AAN-TV/index.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",Express HD
