@@ -445,7 +445,7 @@ https://cdn.rabta.stream/AAN-TV/index.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",Express HD
 https://live.msnetworks.net/express-ent/master.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",Sab TV HD
-https://s1.ideationtec.live/SAB_Entertainment/SAB_Entertainment.m3u8
+http://filex.me:8080/live/omer123/002773/246614.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",Set Entertainment
 https://s1.ideationtec.live/SET_Ent/SET_Ent.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",A1TV
