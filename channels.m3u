@@ -359,6 +359,7 @@ https://premiumplug.fun/tee/zee5.php/0-9-channel_1510237423.m3u8
 https://d1rc86nwwc9fag.cloudfront.net/260723/starplusuk_2500/chunks.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Star Plus HD
 http://139.23.241.38:8088/401/tracks-v1a1/mono.m3u8
+http://103.135.253.32:8080/STAR-PLUS/index.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Star Pravah HD
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starpravah.smil/chunklist_b1928000.m3u8
 #EXTINF:-1 , group-title="Hindi Entertainment",Star Utsav
@@ -394,9 +395,9 @@ https://mumt05.tangotv.in/87NeALx2THEQ/index.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Zee Bangla
 https://drk6xq0vhn.gpcdn.net/live/zee_bangla_abr/index.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Zee Bangla HD
-http://139.23.241.38:8088/301/tracks-v1a1/mono.m3u8
+http://103.135.253.32:8080/ZEE-BANGLA-HD/index.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Star Jalsha HD
-http://139.23.241.38:8088/302/tracks-v1a1/mono.m3u8
+http://103.135.253.32:8080/STAR-JALSHA-HD/index.m3u8
 #EXTINF:-1 ,group-title="Hindi Entertainment",Colors Bangla
 http://trxx.in:80/play/live.php?mac=00:1A:79:D2:3D:EE&stream=225740&extension=ts
 #EXTINF:-1 ,group-title="Hindi Entertainment",Colors Bangla HD
