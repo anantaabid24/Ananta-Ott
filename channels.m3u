@@ -479,9 +479,9 @@ https://turkhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",Persiana Plus
 https://euhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",TRT 1
-https://tv-trt1.medya.trt.com.tr/master_1440.m3u8
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",TRT 2
-https://tv-trt2.medya.trt.com.tr/master_1440.m3u8
+https://tv-trt2.medya.trt.com.trmaster.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",A TV HD
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",TRT Turk
