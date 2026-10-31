@@ -304,8 +304,7 @@ https://fta.ektv.in/live/351/master.m3u8
 #EXTINF:-1,group-title="Movies", MH ONE
 https://fta.ektv.in/live/353/master.m3u8
 #EXTINF:-1,group-title="Movies",Dishoom Films
-https://tinyurl.com/5a6wxs62
-
+https://d1i2c9u9bg7ji9.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-ekn1swkg8b4cn/playlist.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=IN460001727&ads.ssai_vendor=SSSLIVE&pb_type=pb-ekn1swkg8b4cn_cloudfront
 
 
 
@@ -373,15 +372,15 @@ http://filex.me:8080/live/omer123/002773/911247.m3u8
 #EXTINF:-1,group-title="Hindi Entertainment",HI DOST
 https://cdn.pishow.tv/ott/live/224/master.m3u8
 #EXTINF:-1,group-title="Hindi Entertainment",KOREAN TV
-https://shorturl.at/W40bd
+https://d2ta4bqxv3hgr7.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-y5gitldbaizaw/playlist.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=IN3600005NF&ads.ssai_vendor=SSSLIVE&pb_type=pb-y5gitldbaizaw_cloudfront
 #EXTINF:-1,group-title="Hindi Entertainment",Epic Bharat
-https://shorturl.at/0uDGZ
+https://d1mbzned5sqs2u.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-2umk3abbv7b2o/master.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=IN1700011V7&ads.ssai_vendor=SSSLIVE&pb_type=pb-2umk3abbv7b2o_cloudfront
 #EXTINF:-1,group-title="Hindi Entertainment",Epic Tv
-https://shorturl.at/b451P
+https://d1fodel5fjpe8b.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-68r9vf9490xt2/master.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=IN17000109O&ads.ssai_vendor=SSSLIVE&pb_type=pb-68r9vf9490xt2_cloudfront
 #EXTINF:-1,group-title="Hindi Entertainment",Epic Bhojpuri Tv
-https://shorturl.at/e5GdY
+https://cc-8hy4a26pz2uos.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-8hy4a26pz2uos/playlist.m3u8
 #EXTINF:-1,group-title="Hindi Entertainment",Epic Crimes
-https://shorturl.at/nDDTK
+https://cc-wsuyg2uxeak04.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-wsuyg2uxeak04/master.m3u8
 #EXTINF:-1,group-title="Hindi Entertainment",DANGAL 
 http://filex.me:8080/live/omer123/002773/911629.m3u8
 #EXTINF:-1,group-title="Hindi Entertainment",DANGAL 2
@@ -756,7 +755,7 @@ https://drk6xq0vhn.gpcdn.net/live/zing_sd_abr/index.m3u8
 #EXTINF:-1, group-title="Music",Hindi Hits
 http://146.59.253.52:8080/hindihitshd/index.m3u8
 #EXTINF:-1, group-title="Music",Epic Music
-https://tinyurl.com/63cw8ycc
+https://cc-3cyxq80qusspd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3cyxq80qusspd/playlist.m3u8
 http://103.175.73.12:8080/live/469/469_0.m3u8
 #EXTINF:-1, group-title="Music",Deewana HD
 https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8
@@ -812,7 +811,7 @@ http://198.195.239.50:8095/sonic/tracks-v1a1/mono.m3u8
 #EXTINF:-1, group-title="Kids",Sonic Bangla
 http://filex.me:8080//omer123/002773/519973.m3u8
 #EXTINF:-1, group-title="Kids",EPIC KIDS
-https://tinyurl.com/mr3vwjaw
+https://cc-t8lqe1o99pszu.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t8lqe1o99pszu/playlist.m3u8
 #EXTINF:-1,group-title="Hindi Entertainment",ETV BAL BHARAT
 http://198.195.239.50:8095/ETV.BAL.BHARAT/index.m3u8
 #EXTINF:-1, group-title="Kids",Hungama 
