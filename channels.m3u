@@ -557,6 +557,7 @@ http://139.23.241.38:8088/207/tracks-v1a1/mono.m3u8
 https://drk6xq0vhn.gpcdn.net/live/channel_1_hd_abr/index.m3u8
 
 #EXTINF:-1 tvg-id="303" tvg-name="Desh TV" tvg-logo="https://shorturl.at/gWFVC" group-title="Bangla Entertainment",Desh TV
+https://shorturl.at/pRUDA
 https://drk6xq0vhn.gpcdn.net/live/desh_tv_abr/index.m3u8
 
 #EXTINF:-1 tvg-id="100" tvg-name="Bangla Vision" tvg-logo="https://shorturl.at/9Gc9C" group-title="Bangla Entertainment",Bangla Vision
