@@ -530,7 +530,7 @@ http://139.23.241.38:8088/204/tracks-v1a1/mono.m3u8
 http://139.23.241.38:8088/201/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="94" tvg-name="Channel 24 HD" tvg-logo="https://h1.nu/1wP0I" group-title="Bangla Entertainment",,Channel 24 HD
-https://box.bbaria.net:8083/Channel24/index.m3u8
+https://shorturl.at/9o0Ri
 
 #EXTINF:-1 tvg-id="229" tvg-name="Maasranga TV" tvg-logo="https://h1.nu/1Cwih" group-title="Bangla Entertainment",Maasranga TV
 http://139.23.241.38:8088/206/tracks-v1a1/mono.m3u8
