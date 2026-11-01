@@ -441,6 +441,7 @@ http://filex.me:8080/live/omer123/002773/246591.m3u8
 https://live.msnetworks.net/aur-life/master.m3u8
 http://124.109.47.101/hls/stream1.m3u8
 #EXTINF:-1, group-title="Urdu Entertainment",AAN HD
+https://live.msnetworks.net/aan-tv/master.m3u8
 https://cdn.rabta.stream/AAN-TV/index.m3u8
 #EXTINF:-1,group-title="Urdu Entertainment",Express HD
 https://live.msnetworks.net/express-ent/master.m3u8
